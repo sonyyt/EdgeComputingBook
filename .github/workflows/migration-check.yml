@@ -1,0 +1,25 @@
+name: Full manuscript migration checks
+on:
+  push:
+    branches: [full-book-v042]
+    paths: [.github/workflows/migration-check.yml]
+permissions:
+  contents: read
+jobs:
+  validation-tools:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Collect offline validation dependencies
+        run: |
+          python -m pip download --only-binary=:all: -r requirements.txt -d wheelhouse
+      - uses: actions/upload-artifact@v7
+        with:
+          name: sphinx-validation-dependencies
+          path: wheelhouse
+          retention-days: 1
