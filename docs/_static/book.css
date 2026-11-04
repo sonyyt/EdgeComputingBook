@@ -1,0 +1,12 @@
+/* Keep the reference theme; widen the reading area without breaking mobile. */
+.wy-nav-content { max-width: 1000px; }
+.rst-content p { line-height: 1.72; }
+.rst-content .wy-table-responsive { overflow-x: auto; }
+.rst-content .wy-table-responsive table td,
+.rst-content .wy-table-responsive table th { white-space: normal; }
+.rst-content .math { overflow-x: auto; max-width: 100%; padding-bottom: .35rem; }
+.rst-content img { max-width: 100%; height: auto; }
+@media (max-width: 768px) {
+  .wy-nav-content { padding: 1.25rem; }
+  .rst-content .wy-table-responsive table { min-width: 540px; }
+}
