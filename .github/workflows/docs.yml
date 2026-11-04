@@ -1,0 +1,67 @@
+name: Textbook website
+
+on:
+  push:
+    branches: [main, sphinx-bootstrap]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: 'Deploy to Pages (main only, after publication review)'
+        type: boolean
+        default: false
+        required: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: textbook-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - name: Install documentation dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Build Sphinx (warnings are errors)
+        run: python -m sphinx -n -W --keep-going -b html docs _build/html
+      - name: Check pages, assets, and sample
+        run: python tools/check_site.py _build/html
+      - name: Disable Jekyll processing
+        run: touch _build/html/.nojekyll
+      - name: Upload HTML preview artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _build/html
+
+  deploy:
+    if: github.event_name == 'workflow_dispatch' && inputs.publish && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Deploy approved build
+        id: deployment
+        uses: actions/deploy-pages@v4

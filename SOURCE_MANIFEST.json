@@ -1,0 +1,20 @@
+{
+  "manuscript_version": "0.4.2",
+  "source_filename": "Edge_Computing_Systems_v0_4_2_EN.docx",
+  "source_sha256": "6f2dcf357ac82c9df85dbdda0089c79c0ada0624dd56feaeaf843fc1ffaf73ed",
+  "web_status": "bootstrap-not-complete-book",
+  "imported": {
+    "preface": "four paragraphs verbatim",
+    "sample": "selected paragraphs and Table 1.3 from section 1.6.1; equation (1.1) typeset as LaTeX",
+    "contents": "chapter and part titles; not chapter bodies"
+  },
+  "excluded": [
+    "full chapter bodies",
+    "all photographs and figures",
+    "Appendix C solutions",
+    "full PDF and DOCX downloads"
+  ],
+  "preface_paragraphs_sha256": "e9f24e38adfc500bc0d2475f1232b4fa206af94972442c914bbeb6f714a8ec67",
+  "full_book_figures_expected": 156,
+  "full_book_reference_range": "1-211"
+}
