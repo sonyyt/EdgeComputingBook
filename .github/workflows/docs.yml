@@ -2,7 +2,7 @@ name: Textbook website
 
 on:
   push:
-    branches: [main, sphinx-bootstrap]
+    branches: [main, sphinx-bootstrap, full-book-v042]
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -37,13 +37,22 @@ jobs:
           cache-dependency-path: requirements.txt
       - name: Install documentation dependencies
         run: python -m pip install -r requirements.txt
-      - name: Build Sphinx (warnings are errors)
+      - name: Build complete textbook (warnings are errors)
         run: python -m sphinx -n -W --keep-going -b html docs _build/html
-      - name: Check pages, assets, and sample
+      - name: Check full manuscript, images, equations, references, and local links
         run: python tools/check_site.py _build/html
+      - name: Upload full-book validation report
+        uses: actions/upload-artifact@v7
+        with:
+          name: full-book-validation
+          path: |
+            VALIDATION_REPORT.json
+            SOURCE_MANIFEST.json
+            MIGRATION_REPORT.md
+          retention-days: 7
       - name: Disable Jekyll processing
         run: touch _build/html/.nojekyll
-      - name: Upload HTML preview artifact
+      - name: Upload complete HTML build
         uses: actions/upload-pages-artifact@v4
         with:
           path: _build/html
