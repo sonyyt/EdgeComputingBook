@@ -1,3 +1,5 @@
+(preface)=
+
 # Preface
 
 A sensor can collect a measurement, and a language model can propose an explanation. A useful application must do more: move information between devices, run programs with limited resources, preserve state, respond in useful time, and remain trustworthy when components fail. Edge computing connects these questions by placing selected work near data and users while retaining useful connections to the cloud.
@@ -7,3 +9,4 @@ This book begins with an introduction to edge computing and an intelligent IoT a
 The intended reader can write and debug a small program. Basic operating-systems and networking knowledge is useful; prior training in neural networks is not required. Examples involving cameras, phones, wearables, machines, and local assistants introduce general principles rather than define the limits of the field. A small working implementation provides a starting point for asking what should change and whether the change helps.
 
 Numerical examples are identified as assumptions, calculations, simulations, or measurements. The companion experiments separate what actually ran from proposed deployments. A successful design is not simply a small model, a fast server, or a fashionable platform. It is a system that meets its application’s needs with understandable behavior, evidence, and trade-offs.
+

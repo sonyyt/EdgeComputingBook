@@ -1,11 +1,7 @@
 .venv/
-__pycache__/
-*.py[cod]
 _build/
+_conversion/
+__pycache__/
+*.pyc
 .DS_Store
-.env
-.env.*
-!.env.example
-*.docx
-*.pdf
-*.zip
+Thumbs.db
