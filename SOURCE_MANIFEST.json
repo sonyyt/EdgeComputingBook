@@ -1,20 +1,1911 @@
 {
-  "manuscript_version": "0.4.2",
-  "source_filename": "Edge_Computing_Systems_v0_4_2_EN.docx",
+  "version": "0.4.2",
+  "source_file": "Edge_Computing_Systems_v0_4_2_EN.docx",
   "source_sha256": "6f2dcf357ac82c9df85dbdda0089c79c0ada0624dd56feaeaf843fc1ffaf73ed",
-  "web_status": "bootstrap-not-complete-book",
-  "imported": {
-    "preface": "four paragraphs verbatim",
-    "sample": "selected paragraphs and Table 1.3 from section 1.6.1; equation (1.1) typeset as LaTeX",
-    "contents": "chapter and part titles; not chapter bodies"
-  },
-  "excluded": [
-    "full chapter bodies",
-    "all photographs and figures",
-    "Appendix C solutions",
-    "full PDF and DOCX downloads"
+  "conversion": "Pandoc DOCX reader and custom MyST writer; original text, numbering, equations, tables, figures, captions, references and credits retained. No substantive rewriting.",
+  "pages": [
+    {
+      "path": "preface.md",
+      "title": "Preface",
+      "source_blocks": 5,
+      "images": 0,
+      "math": 0,
+      "tables": 0,
+      "code_blocks": 0,
+      "characters": 1805
+    },
+    {
+      "path": "chapters/ch01.md",
+      "title": "Chapter 1. Introduction to Edge Computing",
+      "source_blocks": 215,
+      "images": 16,
+      "math": 1,
+      "tables": 8,
+      "code_blocks": 0,
+      "characters": 67753
+    },
+    {
+      "path": "chapters/ch02.md",
+      "title": "Chapter 2. An Agentic IoT Application at the Edge",
+      "source_blocks": 142,
+      "images": 10,
+      "math": 6,
+      "tables": 4,
+      "code_blocks": 1,
+      "characters": 43798
+    },
+    {
+      "path": "chapters/ch03.md",
+      "title": "Chapter 3. IoT Devices and Sensing Systems",
+      "source_blocks": 103,
+      "images": 6,
+      "math": 19,
+      "tables": 2,
+      "code_blocks": 0,
+      "characters": 31606
+    },
+    {
+      "path": "chapters/ch04.md",
+      "title": "Chapter 4. Communication and Networking for IoT and Edge Systems",
+      "source_blocks": 145,
+      "images": 11,
+      "math": 5,
+      "tables": 5,
+      "code_blocks": 1,
+      "characters": 46436
+    },
+    {
+      "path": "chapters/ch05.md",
+      "title": "Chapter 5. Running and Deploying Applications on Edge Nodes",
+      "source_blocks": 94,
+      "images": 8,
+      "math": 0,
+      "tables": 1,
+      "code_blocks": 4,
+      "characters": 26733
+    },
+    {
+      "path": "chapters/ch06.md",
+      "title": "Chapter 6. Scaling Edge Applications and Elastic Execution",
+      "source_blocks": 94,
+      "images": 7,
+      "math": 0,
+      "tables": 1,
+      "code_blocks": 3,
+      "characters": 25151
+    },
+    {
+      "path": "chapters/ch07.md",
+      "title": "Chapter 7. Computation Offloading and Device–Edge–Cloud Collaboration",
+      "source_blocks": 94,
+      "images": 8,
+      "math": 0,
+      "tables": 2,
+      "code_blocks": 1,
+      "characters": 25468
+    },
+    {
+      "path": "chapters/ch08.md",
+      "title": "Chapter 8. Scheduling and Optimizing Edge Systems",
+      "source_blocks": 92,
+      "images": 8,
+      "math": 0,
+      "tables": 4,
+      "code_blocks": 0,
+      "characters": 24134
+    },
+    {
+      "path": "chapters/ch09.md",
+      "title": "Chapter 9. Commercial Edge Platforms: From Mechanisms to Deployment",
+      "source_blocks": 156,
+      "images": 9,
+      "math": 3,
+      "tables": 5,
+      "code_blocks": 0,
+      "characters": 42451
+    },
+    {
+      "path": "chapters/ch10.md",
+      "title": "Chapter 10. Running and Optimizing AI on Edge Devices",
+      "source_blocks": 164,
+      "images": 18,
+      "math": 0,
+      "tables": 4,
+      "code_blocks": 1,
+      "characters": 57886
+    },
+    {
+      "path": "chapters/ch11.md",
+      "title": "Chapter 11. Collaborative Edge Intelligence: From Perception Models to Language Models",
+      "source_blocks": 162,
+      "images": 17,
+      "math": 0,
+      "tables": 3,
+      "code_blocks": 1,
+      "characters": 52987
+    },
+    {
+      "path": "chapters/ch12.md",
+      "title": "Chapter 12. Agentic AI and Tool-Driven Applications at the Edge",
+      "source_blocks": 145,
+      "images": 17,
+      "math": 0,
+      "tables": 3,
+      "code_blocks": 5,
+      "characters": 48431
+    },
+    {
+      "path": "chapters/ch13.md",
+      "title": "Chapter 13. Security, Privacy, and Safety in Edge Systems",
+      "source_blocks": 96,
+      "images": 12,
+      "math": 0,
+      "tables": 2,
+      "code_blocks": 1,
+      "characters": 33596
+    },
+    {
+      "path": "chapters/ch14.md",
+      "title": "Chapter 14. Multi-Party Trust, Blockchains, and Distributed Ledgers",
+      "source_blocks": 91,
+      "images": 12,
+      "math": 0,
+      "tables": 2,
+      "code_blocks": 0,
+      "characters": 32849
+    },
+    {
+      "path": "appendices/appendix-a.md",
+      "title": "Appendix A. Laboratory and Project Guide",
+      "source_blocks": 31,
+      "images": 0,
+      "math": 0,
+      "tables": 1,
+      "code_blocks": 0,
+      "characters": 9028
+    },
+    {
+      "path": "appendices/appendix-b.md",
+      "title": "Appendix B. Optional Extension: Learning and Adaptation Across Devices",
+      "source_blocks": 23,
+      "images": 0,
+      "math": 7,
+      "tables": 0,
+      "code_blocks": 0,
+      "characters": 5826
+    },
+    {
+      "path": "appendices/appendix-c.md",
+      "title": "Appendix C. Selected Exercise Solutions",
+      "source_blocks": 200,
+      "images": 0,
+      "math": 22,
+      "tables": 0,
+      "code_blocks": 0,
+      "characters": 43904
+    },
+    {
+      "path": "appendices/appendix-d.md",
+      "title": "Appendix D. Glossary and Notation",
+      "source_blocks": 92,
+      "images": 0,
+      "math": 17,
+      "tables": 1,
+      "code_blocks": 0,
+      "characters": 13362
+    },
+    {
+      "path": "appendices/appendix-e.md",
+      "title": "Appendix E. Evidence and Reproducibility",
+      "source_blocks": 16,
+      "images": 0,
+      "math": 0,
+      "tables": 0,
+      "code_blocks": 0,
+      "characters": 3853
+    },
+    {
+      "path": "references.md",
+      "title": "References",
+      "source_blocks": 225,
+      "images": 0,
+      "math": 0,
+      "tables": 0,
+      "code_blocks": 0,
+      "characters": 38324
+    }
   ],
-  "preface_paragraphs_sha256": "e9f24e38adfc500bc0d2475f1232b4fa206af94972442c914bbeb6f714a8ec67",
-  "full_book_figures_expected": 156,
-  "full_book_reference_range": "1-211"
+  "totals": {
+    "chapters": 14,
+    "appendices": 5,
+    "content_pages": 21,
+    "numbered_figures": 156,
+    "embedded_image_occurrences": 159,
+    "unique_image_files": 159,
+    "tables_including_photo_layouts": 48,
+    "office_math_objects": 80,
+    "source_code_blocks": 18,
+    "references": 211
+  },
+  "figures": [
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.6",
+    "1.7",
+    "1.8",
+    "1.9",
+    "1.10",
+    "1.11",
+    "1.12",
+    "1.13",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7",
+    "2.8",
+    "2.9",
+    "2.10",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "4.7",
+    "4.8",
+    "4.9",
+    "4.10",
+    "4.11",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "5.6",
+    "5.7",
+    "5.8",
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "6.5",
+    "6.6",
+    "6.7",
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "7.5",
+    "7.6",
+    "7.7",
+    "7.8",
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "8.6",
+    "8.7",
+    "8.8",
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "9.5",
+    "9.6",
+    "9.7",
+    "9.8",
+    "9.9",
+    "10.1",
+    "10.2",
+    "10.3",
+    "10.4",
+    "10.5",
+    "10.6",
+    "10.7",
+    "10.8",
+    "10.9",
+    "10.10",
+    "10.11",
+    "10.12",
+    "10.13",
+    "10.14",
+    "10.15",
+    "10.16",
+    "10.17",
+    "10.18",
+    "11.1",
+    "11.2",
+    "11.3",
+    "11.4",
+    "11.5",
+    "11.6",
+    "11.7",
+    "11.8",
+    "11.9",
+    "11.10",
+    "11.11",
+    "11.12",
+    "11.13",
+    "11.14",
+    "11.15",
+    "11.16",
+    "11.17",
+    "12.1",
+    "12.2",
+    "12.3",
+    "12.4",
+    "12.5",
+    "12.6",
+    "12.7",
+    "12.8",
+    "12.9",
+    "12.10",
+    "12.11",
+    "12.12",
+    "12.13",
+    "12.14",
+    "12.15",
+    "12.16",
+    "12.17",
+    "13.1",
+    "13.2",
+    "13.3",
+    "13.4",
+    "13.5",
+    "13.6",
+    "13.7",
+    "13.8",
+    "13.9",
+    "13.10",
+    "13.11",
+    "13.12",
+    "14.1",
+    "14.2",
+    "14.3",
+    "14.4",
+    "14.5",
+    "14.6",
+    "14.7",
+    "14.8",
+    "14.9",
+    "14.10",
+    "14.11",
+    "14.12"
+  ],
+  "images": [
+    {
+      "page": "chapters/ch01.md",
+      "file": "asset-0cced95d9c4ae19a.png",
+      "source_media": "rId21.png",
+      "sha256": "0cced95d9c4ae19aec7b28b10724a6eb892ee77c4ea0aa87995e68239d32ff11",
+      "alt": "Figure 1.1. Two ways to process the same camera input. In the upper design, frames travel to a remote application before a result is available. In the lower design, nearby computation produces the immediate result and sends selected information onward. The figure shows application work, not every router on the network path."
+    },
+    {
+      "page": "chapters/ch01.md",
+      "file": "asset-bfc6c1ad35de3d8e.png",
+      "source_media": "rId30.png",
+      "sha256": "bfc6c1ad35de3d8e8e30b6cd236fecbf2c2f5af6155f7a6f2e1283de44775039",
+      "alt": "Four reasons to keep selected work local; Respond nearby; Camera; Local detection; Avoid a remote round trip for this operation.; Send less; Many samples; Approved summary; Process first; send only information the task needs.; Continue locally; Field device; Local interface; WAN unavailable; local power and links still work.; Control disclosure; Private history; Release gate; Locality helps only with explicit access and release; rules."
+    },
+    {
+      "page": "chapters/ch01.md",
+      "file": "asset-d15b1310e9c82585.png",
+      "source_media": "rId36.png",
+      "sha256": "d15b1310e9c825853f445865e078ff64e878ce23c284f81518064ab90fba5894",
+      "alt": "Read a device resource card; Teaching node A; CPU; 4 cores; RAM; 8 GiB; Storage; 64 GB; Accelerator; None assumed; Power; Mains powered; Can the service run?; Check OS, instructions and required operators.; Can it fit in memory?; Weights + activations + runtime + other services.; Can it keep up?; Measure the real input, concurrency and power; conditions."
+    },
+    {
+      "page": "chapters/ch01.md",
+      "file": "asset-2ddf3d9fef2ec5e4.png",
+      "source_media": "rId40.png",
+      "sha256": "2ddf3d9fef2ec5e404aca48310ab05b29b3ed8a0c04db180092b21fe78e2959f",
+      "alt": "Figure 1.4. Two real boards, with very different resource budgets: (a) Arduino UNO R3; (b) Raspberry Pi 5. Notice the hardware headers on both, and the Pi’s Ethernet, USB, and display connections. The photos are not to scale and do not identify the Pi’s installed RAM variant. Photo sources: P1–P2; specifications: [71, 73]."
+    },
+    {
+      "page": "chapters/ch01.md",
+      "file": "asset-e103fcd8248a58d3.png",
+      "source_media": "image1.png",
+      "sha256": "e103fcd8248a58d3789b53f155d8e884a8a76921051e7af97c024686c3f243ad",
+      "alt": "Manufacturer illustration of an Advantech UNO-137 industrial computer, its modular extension kit, and optional interface modules."
+    },
+    {
+      "page": "chapters/ch01.md",
+      "file": "asset-a7493b2718e4bd1f.jpg",
+      "source_media": "image2.jpg",
+      "sha256": "a7493b2718e4bd1ffb029fe428711281cb37efd662122d0e45b7d6676e809639",
+      "alt": "Google Pixel smartphone photographed beside its packaging; rear cameras are visible."
+    },
+    {
+      "page": "chapters/ch01.md",
+      "file": "asset-a1c82d9f93b0330f.jpg",
+      "source_media": "image3.jpg",
+      "sha256": "a1c82d9f93b0330fa3884b085be91352f81c139874bb9477f8ece6b714d7e380",
+      "alt": "Jetson Nano at upper left and Jetson Orin Nano at lower right, on a cutting mat; the Orin Nano has a visible cooling fan."
+    },
+    {
+      "page": "chapters/ch01.md",
+      "file": "asset-35706c0d37d2b1fb.png",
+      "source_media": "image4.png",
+      "sha256": "35706c0d37d2b1fb1fe12613e411b8ce3343237358649af21e24c4a48b078f0d",
+      "alt": "Manufacturer product image of a Dell PowerEdge XR4000z compact stackable edge-server chassis with two visible compute sleds and power connections."
+    },
+    {
+      "page": "chapters/ch01.md",
+      "file": "asset-1ff2db7127376594.jpg",
+      "source_media": "image5.jpg",
+      "sha256": "1ff2db71273765949d3c981cade110ba599ea159dfe8c89786681b347bb49204",
+      "alt": "Dell PowerEdge R610 physical server with its cover removed, showing drive bays, fans, and internal components."
+    },
+    {
+      "page": "chapters/ch01.md",
+      "file": "asset-eca567a05327ddec.jpg",
+      "source_media": "image6.jpg",
+      "sha256": "eca567a05327ddec7bb7dd2e4e85fd92de6f34868f082231d325b0646082b92f",
+      "alt": "Rows of equipment racks in a data-center room; this source is not identified as a Google facility."
+    },
+    {
+      "page": "chapters/ch01.md",
+      "file": "asset-91b7b11870274896.jpg",
+      "source_media": "image7.jpg",
+      "sha256": "91b7b118702748964b5a0806c8b2cbef4cdc63f9f2ada866058d241bb95d6bd7",
+      "alt": "Exterior of a Google data-center facility in The Dalles, Oregon, with building, fencing, and a Google sign."
+    },
+    {
+      "page": "chapters/ch01.md",
+      "file": "asset-fe861d661173a81f.png",
+      "source_media": "rId51.png",
+      "sha256": "fe861d661173a81f71b3a40648242199ae1890f87c5dc07fcf8192786fb81aa2",
+      "alt": "Figure 1.9. Four alternative placements for an application task. On-device, on-site, provider-edge, and remote-cloud execution are options, not mandatory stages. A physical deployment can combine several of these arrangements. Ordinary network forwarding devices are omitted."
+    },
+    {
+      "page": "chapters/ch01.md",
+      "file": "asset-4ddb6ab295ed51d9.png",
+      "source_media": "rId55.png",
+      "sha256": "4ddb6ab295ed51d9b3b0a2b20349bef972ab994a9d00665975e12870c89874d4",
+      "alt": "Figure 1.10. Computing begins in real environments, not cloud-shaped icons. (a) A solar-powered outdoor air-monitoring installation. (b) A camera-and-lighting installation above retail shelves. The photos show the power, mounting, and sensing context; the placement of the applications processing their data must be established separately. Photo sources: P5–P6."
+    },
+    {
+      "page": "chapters/ch01.md",
+      "file": "asset-ea0f4f48dc6dbaea.png",
+      "source_media": "rId62.png",
+      "sha256": "ea0f4f48dc6dbaea31d0b35ec90d4602bfc8b6e64d90d58cf3cdfb2518ba4fbb",
+      "alt": "Figure 1.11. Cooperation across the continuum in an illustrative multi-site application. Local inference, cross-site analysis, and model distribution are distinct tasks. Peer sharing between site servers is optional and should carry only information that the application needs and is allowed to exchange."
+    },
+    {
+      "page": "chapters/ch01.md",
+      "file": "asset-d60fe9c921780474.png",
+      "source_media": "rId66.png",
+      "sha256": "d60fe9c9217804749d7a3289de87ade478e34f3f453e16613889b75e00d8e8f1",
+      "alt": "Figure 1.12. The data path and the management path can differ. A remotely managed application can execute locally. Dashed arrows represent configuration or update traffic; solid arrows represent the local application’s input and result. Loss of the wide-area link does not, by itself, break the depicted local path."
+    },
+    {
+      "page": "chapters/ch01.md",
+      "file": "asset-e5926a0cbb161f3e.png",
+      "source_media": "rId72.png",
+      "sha256": "e5926a0cbb161f3ef68dbb54853538e9ec79a30cb692bedc447a4de0fd1c293f",
+      "alt": "Figure 1.13. The three assumed response-time budgets from Table 1.2. The cloud has the shortest classification time, but the site server has the shortest total. These stacked intervals illustrate arithmetic, not measured speedups."
+    },
+    {
+      "page": "chapters/ch02.md",
+      "file": "asset-20393cc874aff020.png",
+      "source_media": "rId83.png",
+      "sha256": "20393cc874aff0206e58adf3bfa38ba9f64ccc96d9f2cc626493da8ac98ffbbb",
+      "alt": "Figure 2.1. The same data and tools can support different user goals. The first request needs a lookup; the second combines filtering, alignment, aggregation, and plotting; the third introduces a user-defined calculation. The paths illustrate possible workflows, not a claim that a particular model generated them."
+    },
+    {
+      "page": "chapters/ch02.md",
+      "file": "asset-351d6febd6bbc9fb.png",
+      "source_media": "rId86.png",
+      "sha256": "351d6febd6bbc9fbd1cea1e1c70d84192da1e43e2e5c3462b430c2db4baa26e5",
+      "alt": "One interface, three changing requests; 01 Read; Latest observation in A101?; Return value + observation; time.; 02 Compare; Five-minute occupied; means.; A102 at 09:10: 3/5 valid → not; accepted.; 03 Redefine; Now use ten-minute bins.; 09:10–09:20: 8/10 → 23.7375; °C."
+    },
+    {
+      "page": "chapters/ch02.md",
+      "file": "asset-bb68f62735d69cf9.png",
+      "source_media": "rId97.png",
+      "sha256": "bb68f62735d69cf9524a6eeaf4d41c65ae009e3d5d1726e1b0001bc1ae9ee413",
+      "alt": "Figure 2.3. A local agentic IoT application. The observation path continuously maintains site data; the request path invokes the model and tools as needed. Model proposals do not bypass authorization. A remote LLM is optional and receives only an explicitly permitted payload. Devices, the edge host, and the cloud are different execution locations."
+    },
+    {
+      "page": "chapters/ch02.md",
+      "file": "asset-8215b11f9ef86c3f.png",
+      "source_media": "rId101.png",
+      "sha256": "8215b11f9ef86c3fd494949f391ebc4f33a4adc844fb883f20379c25d34f8c5e",
+      "alt": "An agent proposal crosses an execution gate; Model / user; Runtime; Tools / data; Propose next step; Tool + arguments; Check every action; Scope, arguments,; budget; Execute permitted call; Return result or error; Record observation; A denial is not execution.; Choose next step; Use actual returned; evidence.; Denied → no tool call; report the reason."
+    },
+    {
+      "page": "chapters/ch02.md",
+      "file": "asset-4d259c48edf35b7a.png",
+      "source_media": "rId108.png",
+      "sha256": "4d259c48edf35b7aacac3ea02cde47f039e99bb83a0b1b291736fbe50e133a2d",
+      "alt": "From field metadata to a permitted query; Observation; room_id: A101; temperature_c: 23.5; observed_at: ...; Visible catalog; temperature_c → °C; interval: yesterday; fields: temperature,; occupancy; Tool arguments; query_series(; room=\"A101\",; field=\"temperature_c\"); Humidity absent → ask or report limitation; do not invent a field."
+    },
+    {
+      "page": "chapters/ch02.md",
+      "file": "asset-eddecc840773e3c6.png",
+      "source_media": "rId112.png",
+      "sha256": "eddecc840773e3c6edd8a190e213d3fb95fa6e63ea9962f87539fa153812e02a",
+      "alt": "Figure 2.6. Observations, a catalog, and tool descriptions answer different questions. The model uses authorized descriptions to propose work; the data and execution services enforce the contracts. Large data artifacts can remain local while their identifiers and relevant metadata move through the task loop."
+    },
+    {
+      "page": "chapters/ch02.md",
+      "file": "asset-f4f05fb2d720a494.png",
+      "source_media": "rId118.png",
+      "sha256": "f4f05fb2d720a494333c928a6aa83eb265d162432d894d4fff006de09e5b316b",
+      "alt": "Figure 2.7. The comparison workflow. Coverage is calculated before a result is accepted for plotting. The branch for insufficient coverage produces a gap with an explanation, not an invented mean. A changed user definition can produce a different workflow over the same tools and data."
+    },
+    {
+      "page": "chapters/ch02.md",
+      "file": "asset-0574f2b86a3a1dde.png",
+      "source_media": "rId121.png",
+      "sha256": "0574f2b86a3a1ddeec056299e0de6512ee8c657c4202f1fa0068d12cb5ae416c",
+      "alt": "Figure 2.8. Five-minute occupied-period means from the synthetic fixture. Markers represent accepted bins; missing bins break the line. The graph demonstrates the specified calculation, not real room conditions or measured language-model accuracy."
+    },
+    {
+      "page": "chapters/ch02.md",
+      "file": "asset-a96d8d18b9dc3a56.png",
+      "source_media": "rId125.png",
+      "sha256": "a96d8d18b9dc3a56669ed922b5537bca2bf2588a55bcfdd3e9f569f2bab4f23c",
+      "alt": "A result, a limitation, and a revised request; Five-minute result; 09:10: 3/5 valid; 60% coverage; Mean withheld; User changes the bin; Use ten-minute bins.; Keep the 80% rule.; Different valid grouping; 09:10–09:20: 8/10; 80% coverage; 23.7375 °C"
+    },
+    {
+      "page": "chapters/ch02.md",
+      "file": "asset-852ed7a37a7dec38.png",
+      "source_media": "rId133.png",
+      "sha256": "852ed7a37a7dec38e6fc304b38eed4d99d30226918485da94576fc9c21ef2c78",
+      "alt": "Figure 2.10. One hypothetical serial request budget. Three separate model intervals contribute to the response. The total of 5.80 seconds leaves only 0.20 seconds under a 6-second target; it is not a measured latency or a guarantee for other requests."
+    },
+    {
+      "page": "chapters/ch03.md",
+      "file": "asset-8165980fa80d2b63.png",
+      "source_media": "rId144.png",
+      "sha256": "8165980fa80d2b633a851974d8d9b065ee5884d3615fb867926870ef53e31956",
+      "alt": "Figure 3.1. Device classes and sensing modalities are different axes. A platform can host several sensors, and the same modality can appear in several platforms. This is a conceptual inventory, not a performance ranking."
+    },
+    {
+      "page": "chapters/ch03.md",
+      "file": "asset-3964d689bc4559ab.png",
+      "source_media": "rId152.png",
+      "sha256": "3964d689bc4559ab0381f30888d4d170facbc8fbc5ffc8c7b6d53a3f3dabd918",
+      "alt": "Figure 3.2. The observation pipeline separates physical transduction, signal processing, acquisition, and interpretation. A successful network delivery preserves only the information that survived the earlier stages."
+    },
+    {
+      "page": "chapters/ch03.md",
+      "file": "asset-0f68aab1c0b21ea1.png",
+      "source_media": "rId158.png",
+      "sha256": "0f68aab1c0b21ea186b38adf9163e875c0c78a6c203167df5acce78d135c1170",
+      "alt": "Figure 3.3. Different modalities expose different evidence: scalar readings, vectors, waveforms, images, and range returns. Application labels are inferences built from these observations, not additional physical sensors."
+    },
+    {
+      "page": "chapters/ch03.md",
+      "file": "asset-3aa95aed47be853b.png",
+      "source_media": "rId166.png",
+      "sha256": "3aa95aed47be853b39acbe1d6193ecc8f6a16ef96d5ab40555d8d7e8a1b8a91e",
+      "alt": "Figure 3.4. A mobile sensing pipeline separates acquisition, windowing, inference, and reporting. Permissions, lifecycle changes, and missing samples can interrupt the pipeline at different boundaries."
+    },
+    {
+      "page": "chapters/ch03.md",
+      "file": "asset-4ece232b23469238.png",
+      "source_media": "rId174.png",
+      "sha256": "4ece232b23469238545c18cc5675e43ebf2bb3a045b09b3972644d5f0be06328",
+      "alt": "Figure 3.5. A vehicle or robot contains multiple sensing and execution paths. Immediate local control, shared edge coordination, and remote retrospective analysis have different dependencies; the remote path is not assumed to be part of the safety loop."
+    },
+    {
+      "page": "chapters/ch03.md",
+      "file": "asset-7f21fc4291f9cb79.png",
+      "source_media": "rId179.png",
+      "sha256": "7f21fc4291f9cb79be8f929bd65f3aa9097b59b2fe56fcc1c43ebccfbb6db008",
+      "alt": "Two mismatches: coordinate frame and capture time; Different coordinate frames; x; y; x′; y′; Transform axes before combining coordinates.; Different observation times; t = 0; t = 20 ms; 15 m/s × 20 ms = 0.30 m"
+    },
+    {
+      "page": "chapters/ch04.md",
+      "file": "asset-5e2ecc5d5e9755a9.png",
+      "source_media": "rId188.png",
+      "sha256": "5e2ecc5d5e9755a9c247a8dd9b140f0959b5f273086d977d9037bba1389ddd93",
+      "alt": "A layered protocol map with compatible paths; IP telemetry; MQTT; TLS / TCP; IP; Wi-Fi / Ethernet; Constrained IP node; CoAP; DTLS / UDP; IPv6 / 6LoWPAN; IEEE 802.15.4; LoRaWAN path; Application server; Network server; LoRaWAN; LoRa radio; Matter supplies application interoperability; Thread supplies IPv6 mesh networking.; LoRaWAN gateways forward to network services over a separate backhaul."
+    },
+    {
+      "page": "chapters/ch04.md",
+      "file": "asset-dc2438c9ea5fe671.png",
+      "source_media": "rId193.png",
+      "sha256": "dc2438c9ea5fe671e1de9c465a5383f0732b1a0401752d1fa728d60a88097996",
+      "alt": "Figure 4.2. A wearable–phone exchange separates discovery, connection, attribute operations, and application persistence. A protocol acknowledgement and a stored observation are distinct events."
+    },
+    {
+      "page": "chapters/ch04.md",
+      "file": "asset-aa0ed75bf8466963.png",
+      "source_media": "rId198.png",
+      "sha256": "aa0ed75bf8466963be0ed8e53dccb87a6580fd1e5f650461587f4adcb2a0b962",
+      "alt": "Figure 4.3. Zigbee and Thread share some lower-layer foundations but use different stacks. A Thread border router forwards between IP networks; a semantic gateway has additional responsibilities."
+    },
+    {
+      "page": "chapters/ch04.md",
+      "file": "asset-060acd554b2b7156.png",
+      "source_media": "rId202.png",
+      "sha256": "060acd554b2b7156ad2385344c0eb875c1f32f176914ac692212c3c4de6049d2",
+      "alt": "Figure 4.4. A LoRaWAN path separates the radio hop, gateway backhaul, network-server responsibilities, and application processing. Local gateway presence alone does not establish an offline application service."
+    },
+    {
+      "page": "chapters/ch04.md",
+      "file": "asset-7ac73e30e7886696.png",
+      "source_media": "rId211.png",
+      "sha256": "7ac73e30e78866968f1b28220cedc569d01ea6fbb2315ae3cd72fb143b932153",
+      "alt": "Figure 4.5. MQTT publish–subscribe and CoAP resource observation organize communication differently. Both need application-level decisions about persistence, freshness, authorization, and failure."
+    },
+    {
+      "page": "chapters/ch04.md",
+      "file": "asset-985ba3602972c177.png",
+      "source_media": "rId216.png",
+      "sha256": "985ba3602972c177bc2cb7dce6d305fe7d507785e27f831f30eb1637a800d9b8",
+      "alt": "Figure 4.6. A semantic gateway translates more than bytes. Identity, units, time, operation meaning, and acknowledgement boundaries must survive the conversion."
+    },
+    {
+      "page": "chapters/ch04.md",
+      "file": "asset-efd07767ae27b5a4.png",
+      "source_media": "rId222.png",
+      "sha256": "efd07767ae27b5a45d20fdc492276d91ec953dbaa4dde53b3e8c53a06d696ee6",
+      "alt": "Figure 4.7. From a physical object to an application-facing representation. Observation processing and behavioral analysis are separate responsibilities; visualization is one consumer, not the twin itself."
+    },
+    {
+      "page": "chapters/ch04.md",
+      "file": "asset-f54913ad44334f66.png",
+      "source_media": "rId226.png",
+      "sha256": "f54913ad44334f664bfdd51ff75023d576fc7d31197a3171ada1283f4c115dae",
+      "alt": "Figure 4.8. The same physical system can be represented as identified objects and typed relationships. A measures relationship has different meaning from part_of or discharges_into."
+    },
+    {
+      "page": "chapters/ch04.md",
+      "file": "asset-b2118b83dd31774e.png",
+      "source_media": "rId230.png",
+      "sha256": "b2118b83dd31774eb9e5d59ed241f011289de3ad24310bfbbdaac0cc197dc5e9",
+      "alt": "Late, duplicate, and fresh updates on one timeline; New observation; event=e2; observed=10:02; value=22; Late observation; event=e1; observed=10:01; value=21; Repeated delivery; event=e2; observed=10:02; value=22; History: e2; Current: e2; History: e1, e2; Current: still e2; No extra event; Current: still e2"
+    },
+    {
+      "page": "chapters/ch04.md",
+      "file": "asset-bcd2631cdb607b49.png",
+      "source_media": "rId235.png",
+      "sha256": "bcd2631cdb607b490f3ef7c98a891c09d6424ac6791b304196288b513a905341",
+      "alt": "Figure 4.10. A what-if analysis starts from a named observation snapshot and creates separate scenario results. Its predictions must not overwrite the observed-state record."
+    },
+    {
+      "page": "chapters/ch04.md",
+      "file": "asset-3b224d5f560f3733.png",
+      "source_media": "rId239.png",
+      "sha256": "3b224d5f560f37339e26f30c8c256c2cc71ce52b748e93263e6b5a49cd2a99c7",
+      "alt": "Figure 4.11. A candidate deployment separates a local observation path from selective remote synchronization. A cloud view remains available during a link outage only as a last-known or otherwise qualified view."
+    },
+    {
+      "page": "chapters/ch05.md",
+      "file": "asset-9e27bfc1e7d3b9d5.png",
+      "source_media": "rId250.png",
+      "sha256": "9e27bfc1e7d3b9d59c2faa6046526e83dcf790b2378276396bc7a104f10fd3cd",
+      "alt": "Figure 5.1. A deployment transfers an identified application and supplies target-specific configuration. Observations and results belong to the running site; they are not silently replaced whenever the application is updated."
+    },
+    {
+      "page": "chapters/ch05.md",
+      "file": "asset-c6f7dbc22ed0b545.png",
+      "source_media": "rId253.png",
+      "sha256": "c6f7dbc22ed0b5450d08113c01855da27832b771a55de388b623ddb9ba790473",
+      "alt": "A failed move becomes a complete deployment bundle; Move only the script; Dependency absent; Configuration absent; Model file absent; Prepare the bundle; Program + dependencies; Versioned model; Site configuration; Check readiness; Can load the model?; Can access data?; Can answer one test request?; An existing process is not yet evidence of an operational service."
+    },
+    {
+      "page": "chapters/ch05.md",
+      "file": "asset-63d425fe030f6470.png",
+      "source_media": "rId260.png",
+      "sha256": "63d425fe030f6470a818c10bec4ecb5eb0a1602c849fe70a0df87a7e7737ed0d",
+      "alt": "Isolation boundaries on one shared machine; Direct processes; Application A | B; Libraries and configuration; Process permissions; Host operating-system kernel; Containers; Container A | B; Separate image filesystems; Runtime + configured limits; Shared host kernel; Virtual machines; Application A | B; Guest kernel A | B; Virtual hardware; Hypervisor; Physical CPU, RAM, storage and devices"
+    },
+    {
+      "page": "chapters/ch05.md",
+      "file": "asset-3e54636f6b226ec0.png",
+      "source_media": "rId264.png",
+      "sha256": "3e54636f6b226ec057f70ab6b5baa358682f2ea756587c0de4ec54cf9aa21f47",
+      "alt": "Connect the image, configuration, and running process; Image; reader:v1; app.py + dependencies; A tag is not a digest.; Run configuration; SITE=A101; DATA_DIR=/data; Persistent path mounted; Running instance; Loads SITE=A101; Reads /data; Emits readiness status; The same image can use different site-specific configuration."
+    },
+    {
+      "page": "chapters/ch05.md",
+      "file": "asset-1360f42f8ada8dea.png",
+      "source_media": "rId270.png",
+      "sha256": "1360f42f8ada8dea7d97b91fccbe3034edce6d6763406071f693012dbea5ca54",
+      "alt": "Figure 5.5. A common source can produce platform-specific images. The target obtains a compatible artifact and receives its own configuration. Moving an application package does not transfer live memory or automatically reconnect local devices."
+    },
+    {
+      "page": "chapters/ch05.md",
+      "file": "asset-86864f11140ae831.png",
+      "source_media": "rId275.png",
+      "sha256": "86864f11140ae83185ab9eca710aa3a3282c40b5a669ad0f35ca04ca3e76bb75",
+      "alt": "Can this package run on this target?; 1 CPU instruction set; 2 OS and runtime; 3 Accelerator support; 4 Working memory; A check fails; Rebuild, reconfigure, or; choose another target.; All checks pass → deploy, then test readiness"
+    },
+    {
+      "page": "chapters/ch05.md",
+      "file": "asset-852cb47756904532.png",
+      "source_media": "rId281.png",
+      "sha256": "852cb4775690453211056f46413e9b111fac7ac80300a73cebf77e77a38267bd",
+      "alt": "Figure 5.7. An application can preserve acquisition while bounding concurrent analysis. A finite waiting area and an explicit busy response make overload visible; resource limits are a last boundary, not a substitute for deciding which work to admit."
+    },
+    {
+      "page": "chapters/ch05.md",
+      "file": "asset-2c3da8c351ad015d.png",
+      "source_media": "rId286.png",
+      "sha256": "2c3da8c351ad015d94f6132fd051045a2fc44207f3427a4d28470703d81e9ec7",
+      "alt": "Observe two services sharing one node; Ingestion process; Allocated test buffer; 8 MiB; Observed RSS; 101.14 MiB; CPU, one-core basis; 0.0%; Analysis process; Allocated test buffer; 32 MiB; Observed RSS; 125.16 MiB; CPU, one-core basis; 100.0%; No enforced CPU/RAM limits. RSS includes the process environment, not only the test buffer."
+    },
+    {
+      "page": "chapters/ch06.md",
+      "file": "asset-61a62871f7c780a6.png",
+      "source_media": "rId294.png",
+      "sha256": "61a62871f7c780a6855232cb9e6979cdfb9f917631ec267ad314003b4d5e8156",
+      "alt": "Figure 6.1. Vertical scaling changes the resources of an instance. Horizontal scaling adds instances. New physical capacity and new service replicas are separate changes; several replicas can still share one constrained node."
+    },
+    {
+      "page": "chapters/ch06.md",
+      "file": "asset-27bfd706a7069f4a.png",
+      "source_media": "rId300.png",
+      "sha256": "27bfd706a7069f4a8dd3fdaa8fcf77d9e7b7b3eb73d0b1360203df73c59d4cd2",
+      "alt": "Figure 6.2. Clients use one logical entry point while independent requests are distributed to ready replicas. The replicated analysis tier does not automatically replicate the input store or remove a shared result-writing bottleneck."
+    },
+    {
+      "page": "chapters/ch06.md",
+      "file": "asset-8a1da3ca1a3e9714.png",
+      "source_media": "rId307.png",
+      "sha256": "8a1da3ca1a3e9714d56ed60c33fd08fc069e6da1ea6dfef9245d46afffa8ba07",
+      "alt": "Figure 6.3. A Deployment describes the replicated workload; the control plane maintains it, and nodes run the resulting Pods. The Service carries application access, not the control plane itself. This simplified diagram omits internal components that are not needed for the first deployment."
+    },
+    {
+      "page": "chapters/ch06.md",
+      "file": "asset-3555acf8251e291f.png",
+      "source_media": "rId311.png",
+      "sha256": "3555acf8251e291f1e93103c41c6fd53a12bf572c23c71b9b03dad81b8a2909a",
+      "alt": "Three replicas do not create a third machine; Two ready workers; Node 1: worker; Node 2: worker; Request three workers; Node 1: worker; Node 2: worker; Worker 3: pending; Add compatible capacity; Node 1: worker; Node 2: worker; Node 3: worker"
+    },
+    {
+      "page": "chapters/ch06.md",
+      "file": "asset-bd2022fa5af727eb.png",
+      "source_media": "rId316.png",
+      "sha256": "bd2022fa5af727ebd6b5268b40f50be43dd8bd530a88834efb487c4d0d1dde4b",
+      "alt": "Figure 6.5. Elasticity is delayed: observe load, decide, start an instance, and wait for readiness. A burst can build a queue before new capacity becomes useful. Adding an application replica is separate from obtaining another physical node."
+    },
+    {
+      "page": "chapters/ch06.md",
+      "file": "asset-1c64462be769b746.png",
+      "source_media": "rId322.png",
+      "sha256": "1c64462be769b7468541f4568e595e8b5eeb4c06ab4c53d2ab584c007625a089",
+      "alt": "Cold and warm execution with a timeline; Warm; Cold; 100 ms; Initialize: 1,000 ms; 100; 0; 1,100 ms; Mean = 200 ms; 95th percentile = 1,100 ms"
+    },
+    {
+      "page": "chapters/ch06.md",
+      "file": "asset-e396c8dc6370cc20.png",
+      "source_media": "rId329.png",
+      "sha256": "e396c8dc6370cc20b4c267b8c4bfe0f7a5c40a5f8fb8a39936702c16af483c82",
+      "alt": "Three lines compare analysis capacity, fixed writer capacity, and their minimum at one to four workers."
+    },
+    {
+      "page": "chapters/ch07.md",
+      "file": "asset-9f5030647f344b11.png",
+      "source_media": "rId340.png",
+      "sha256": "9f5030647f344b11113d0a876acd35c74605debb7e4912d31fbca6d37e30ee87",
+      "alt": "Figure 7.1. Offloading includes input preparation, communication, remote waiting and execution, and result return. A local service address and a remote service address can expose the same interface without having the same cost or failure behavior."
+    },
+    {
+      "page": "chapters/ch07.md",
+      "file": "asset-efce21f0b5005b5c.png",
+      "source_media": "rId344.png",
+      "sha256": "efce21f0b5005b5c2623bb977a47566dbc973483c8ca0fcc589130ee4e2af589",
+      "alt": "Figure 7.2. Calculated response components for the hypothetical task: local execution, raw-input offload, and offload after local preprocessing. The values are teaching assumptions, not device or network measurements."
+    },
+    {
+      "page": "chapters/ch07.md",
+      "file": "asset-592a2f4569a2364a.png",
+      "source_media": "rId347.png",
+      "sha256": "592a2f4569a2364ada7e3e8934d550cbcfd22e891014a1c8157619a58113afeb",
+      "alt": "A request changes size before it crosses the link; Camera input; 1920 × 1080 × 3; uint8; 6,220,800 bytes; Resize for the task; 224 × 224 × 3; uint8; 150,528 bytes; Selected result; 96 bytes; Hypothetical record; Different information retained; At 10 Mb/s: about 4.98 s, 0.120 s, or 0.077 ms for payload alone."
+    },
+    {
+      "page": "chapters/ch07.md",
+      "file": "asset-8f946064d10169fe.png",
+      "source_media": "rId353.png",
+      "sha256": "8f946064d10169fe2f147377f20a74c007ceae721b06ec79bff921437a8bbad2",
+      "alt": "Figure 7.4. Three possible cuts of the same application: all local, local preparation with nearby analysis, and local processing with cloud aggregation. The task boundary determines both the transmitted data and the work that remains local."
+    },
+    {
+      "page": "chapters/ch07.md",
+      "file": "asset-585df8181c353bf8.png",
+      "source_media": "rId357.png",
+      "sha256": "585df8181c353bf85dfcff2b74aadb79aaf23d05f05d6317e941463828488213",
+      "alt": "Foreground response versus background work; Acquire; 15 ms; Local analysis; 30 ms; Present answer; 5 ms; Background export; 80 ms; The local answer does not wait; for export if the contract; permits.; Foreground: 15 + 30 + 5 = 50; ms"
+    },
+    {
+      "page": "chapters/ch07.md",
+      "file": "asset-004ca1384497f0fe.png",
+      "source_media": "rId365.png",
+      "sha256": "004ca1384497f0fe68898f9e218f3ce0b70646b67fc72c19677f12aea9f66fbe",
+      "alt": "Desired and applied configuration, side by side; Before the change; rev 7 / 10 s; rev 7 / 10 s; Agreement; Device offline; rev 8 / 5 s; rev 7 / 10 s; New intent ≠ applied change; Applied and reported; rev 8 / 5 s; rev 8 / 5 s; Device report confirms; application"
+    },
+    {
+      "page": "chapters/ch07.md",
+      "file": "asset-bcbe544dbef5531d.png",
+      "source_media": "rId371.png",
+      "sha256": "bcbe544dbef5531ddc0ad103f271e323f7d4dfa11b265e2bec62a98dc15e7ab7",
+      "alt": "Figure 7.7. If the receiver stores an event but its acknowledgment is lost, the sender retries the same event key. The receiver recognizes the duplicate and returns the existing acceptance result. This achieves duplicate-safe ingestion only at the defined receiving boundary."
+    },
+    {
+      "page": "chapters/ch07.md",
+      "file": "asset-2d7c9320c3b29522.png",
+      "source_media": "rId375.png",
+      "sha256": "2d7c9320c3b29522d3403c8421d8d9ac15107a93e5d875da38c14c9ca3eb4b65",
+      "alt": "Reconnect without starving new observations; Stored backlog; old-1 old-2; old-3 old-4; New observations; new-1 new-2; Bounded sharing; Reserve opportunities; for both queues.; One permitted order; new-1 → old-1; old-2 → new-2; old-3 → old-4"
+    },
+    {
+      "page": "chapters/ch08.md",
+      "file": "asset-c8adab067cb82182.png",
+      "source_media": "rId384.png",
+      "sha256": "c8adab067cb8218208f6518f4b3d7f1f4d6ceca3540733020d308f5e43414740",
+      "alt": "Figure 8.1. Placement, scaling, routing, queue scheduling, and admission act on different objects. Application measurements inform policy; a platform executes permitted changes. A working mechanism does not determine which policy best meets the application’s goals."
+    },
+    {
+      "page": "chapters/ch08.md",
+      "file": "asset-6589ce149a9fab51.png",
+      "source_media": "rId388.png",
+      "sha256": "6589ce149a9fab514b76afcb189f7356935f03a489606cbfe3d2c27051d91eab",
+      "alt": "Feasibility first, preference second; Candidate designs; A: local; B: permitted remote; C: unapproved remote; D: exceeds memory; Mandatory gates; Data permission; Memory feasibility; Task quality; Response requirement; Compare feasible A/B; Cost; Energy; Latency; Operational effort; A cheaper infeasible design is not a better solution."
+    },
+    {
+      "page": "chapters/ch08.md",
+      "file": "asset-725cfeb3b290d6de.png",
+      "source_media": "rId393.png",
+      "sha256": "725cfeb3b290d6de870b7d044c5fe58a0b8d8d7e6107193fb452cb68c262bafe",
+      "alt": "Figure 8.3. An illustrative request spends most of its time waiting, not computing. Optimization should target the measured limiting stage while preserving the task and result-quality requirements."
+    },
+    {
+      "page": "chapters/ch08.md",
+      "file": "asset-0bd8423bdd366a51.png",
+      "source_media": "rId396.png",
+      "sha256": "0bd8423bdd366a51a4f19cf7b5ab47d1831f74eb41366d16da9c8b4cd133bf0d",
+      "alt": "Read a request trace like an engineer; Wait 180 ms; Analyze 40; ms; Halve compute: save 20 ms; Reduce waiting: save 100 ms"
+    },
+    {
+      "page": "chapters/ch08.md",
+      "file": "asset-95fda0c684b457b3.png",
+      "source_media": "rId403.png",
+      "sha256": "95fda0c684b457b34ce932ac1ccbdc9206f0e966dd5119acd4fa023448e92e6b",
+      "alt": "Figure 8.5. Two non-preemptive orders for the same assumed jobs. Executing the short-deadline job first meets both stated deadlines in this example. The example does not prove that one policy is optimal for every arrival pattern or objective."
+    },
+    {
+      "page": "chapters/ch08.md",
+      "file": "asset-4d0bbbc67ece2569.png",
+      "source_media": "rId408.png",
+      "sha256": "4d0bbbc67ece2569d6c21fef7caedf907d2cb4cc696b7c33800cf9dce55d31ec",
+      "alt": "Two users sharing a finite queue; One arrival-ordered queue; A1; A2; A3; A4; B1; B waits 4 slots; Per-user rotation; A1; B1; A2; A3; A4; B waits 1 slot; total work is unchanged"
+    },
+    {
+      "page": "chapters/ch08.md",
+      "file": "asset-6b2e4d626e540a21.png",
+      "source_media": "rId417.png",
+      "sha256": "6b2e4d626e540a21081889c141938ae8473f5866629304dec49b73f96e0511cc",
+      "alt": "Aligned arrival rate, capacity step at eight seconds, and triangular backlog; left axis is requests per second, right axis is requests."
+    },
+    {
+      "page": "chapters/ch08.md",
+      "file": "asset-3fda8605b419f68c.png",
+      "source_media": "rId421.png",
+      "sha256": "3fda8605b419f68c6711e9baf29d82dc4e06c6a9843c2050d1904bc4fa26e812",
+      "alt": "Linear aggregate savings cross the fixed 80-second migration cost at approximately 2,667 future requests."
+    },
+    {
+      "page": "chapters/ch09.md",
+      "file": "asset-1a1d81fcf035e3b9.png",
+      "source_media": "rId432.png",
+      "sha256": "1a1d81fcf035e3b97d76389fa69d2e4d5d471c220afe2355c27fcc2cc3593462",
+      "alt": "Platform families mapped to system responsibilities; Greengrass; Customer device; ; Component runtime + cloud; management; Wavelength; Carrier-network location; ; Near-user compute + regional; dependencies; Local Zones; Provider site near users; ; Selected regional services; extended locally; Outposts; Managed hardware on premises; ; Local resource pool + service; link; CloudFront; HTTP delivery path; ; Caching + selected function; triggers; Workers; Provider distributed runtime; ; Isolates + explicit state; dependencies"
+    },
+    {
+      "page": "chapters/ch09.md",
+      "file": "asset-c6f575a7d5342156.png",
+      "source_media": "rId437.png",
+      "sha256": "c6f575a7d5342156cd1d2311a028e7d5e72c75d9c59a87aa700a02627c8ea931",
+      "alt": "Figure 9.2. A Greengrass deployment separates the cloud management path from the local application path. Connecting a sensor requires an actual local interface or messaging adapter; installing a component alone does not create that connection."
+    },
+    {
+      "page": "chapters/ch09.md",
+      "file": "asset-c5a29aa5800e4198.png",
+      "source_media": "rId444.png",
+      "sha256": "c5a29aa5800e4198835d77583bea0b3ae519032a15cc35d751c7499f508dcba2",
+      "alt": "Figure 9.3. A proposed Wavelength application keeps the interactive path near the mobile client and sends approved background work to the parent Region. Dashed links show management relationships, not extra stages that every response must traverse."
+    },
+    {
+      "page": "chapters/ch09.md",
+      "file": "asset-18f96ed37caba1b6.png",
+      "source_media": "rId448.png",
+      "sha256": "18f96ed37caba1b696c11f94e61491cfb0268e41118e4d22dc2058c9ed6a22f0",
+      "alt": "A Wavelength host is not the entire continuum; Mobile client; Carrier network; Wavelength subnet; Application execution; Configured EC2 / container; workload; Separate tenant workload; Explicit isolation and resource; policies; Parent Region; Control services; Shared data; Background work; Regional execution; A request still waits for any regional dependency on its critical path."
+    },
+    {
+      "page": "chapters/ch09.md",
+      "file": "asset-659019ce297e9545.png",
+      "source_media": "rId456.png",
+      "sha256": "659019ce297e954557fc505f095e4e0a434b10d194cb8839bbc1578aae3b08e4",
+      "alt": "Figure 9.5. In a proposed Local Zone design, the interactive service is near the users while selected background services remain regional. A required regional read is still part of the response path even when the front-end process is nearby."
+    },
+    {
+      "page": "chapters/ch09.md",
+      "file": "asset-e4135113a9e7f5bd.png",
+      "source_media": "rId465.png",
+      "sha256": "e4135113a9e7f5bda614f3351e5d7c143a37d2739d1a4005f906c9e878655f97",
+      "alt": "Figure 9.6. EKS extended and local cluster arrangements put the control plane in different places. Local control consumes on-site resources but can preserve more cluster operations during temporary regional disconnection. Regional dependencies must still be checked individually."
+    },
+    {
+      "page": "chapters/ch09.md",
+      "file": "asset-14f6b883798cdf1d.png",
+      "source_media": "rId470.png",
+      "sha256": "14f6b883798cdf1d0e0648a658e1bbed5a8d509cc7a5894ab748e72f2576c1da",
+      "alt": "Figure 9.7. In this simplified viewer-request path, a permitted function can transform a request before cache lookup. A cache hit can avoid the origin; a miss proceeds to an origin service. Lambda@Edge additionally supports origin-side events, which are distinct from viewer events."
+    },
+    {
+      "page": "chapters/ch09.md",
+      "file": "asset-56e1d9142ea28b2f.png",
+      "source_media": "rId475.png",
+      "sha256": "56e1d9142ea28b2f65ac8632e05cc75437228e99ee97ed2ae82dbb1cb6a5fb1d",
+      "alt": "Where four function styles actually execute; Regional Lambda; Configured AWS Region; Regional events / requests; CloudFront Functions; CloudFront request path; Selected viewer events; Lambda@Edge; CloudFront distributed; locations; Selected viewer / origin events; Greengrass local function; Enrolled local core device; Configured local component /; trigger"
+    },
+    {
+      "page": "chapters/ch09.md",
+      "file": "asset-353a387115e28b90.png",
+      "source_media": "rId484.png",
+      "sha256": "353a387115e28b907611fcf9fa0c175a4d5cb2c0042ca3e31a62598488d44df8",
+      "alt": "Figure 9.9. The worked design separates a latency-sensitive path from deferrable work. Capacity, cost, and latency are evaluated as different questions; the numerical example is an assumption-based comparison, not a vendor benchmark."
+    },
+    {
+      "page": "chapters/ch10.md",
+      "file": "asset-37b2256d6d0d4abd.png",
+      "source_media": "rId494.png",
+      "sha256": "37b2256d6d0d4abd96e90b25685dca8d81d3c3f0f1ab6821db1ca2f9206a07a5",
+      "alt": "Figure 10.1. The visible result depends on a complete pipeline. The model is only the middle component; a cropped-digit test does not evaluate camera acquisition or label localization."
+    },
+    {
+      "page": "chapters/ch10.md",
+      "file": "asset-96ef0e9a3f390617.png",
+      "source_media": "rId497.png",
+      "sha256": "96ef0e9a3f3906178f28d57671a650423e584995fe70f0a4b92d2850e6a86b51",
+      "alt": "A dataset crop and a field input are different tasks; Known 8×8 crop; Constructed shifted input; Field task also needs; Locate the label; Handle lighting; Crop and normalize; Check the whole pipeline"
+    },
+    {
+      "page": "chapters/ch10.md",
+      "file": "asset-d22050e6a120ecb7.png",
+      "source_media": "rId501.png",
+      "sha256": "d22050e6a120ecb7c710cd4f934824fbdb987f99dfcbf1bd29a3a46e9e44c739",
+      "alt": "Figure 10.3. Model preparation and field inference are different activities. Evaluation and conversion checks connect them; ordinary predictions do not update weights unless the application explicitly enables learning."
+    },
+    {
+      "page": "chapters/ch10.md",
+      "file": "asset-672fcc21d8aca4e2.png",
+      "source_media": "rId505.png",
+      "sha256": "672fcc21d8aca4e280a021b4c3e6e947d6db1255ea43853f997a339e339bed16",
+      "alt": "Figure 10.4. The same stored weights are reused for new inputs, while activation buffers hold input-dependent values. Smaller parameter storage does not necessarily imply proportionally smaller activation memory."
+    },
+    {
+      "page": "chapters/ch10.md",
+      "file": "asset-0dacc036e3d0d312.png",
+      "source_media": "rId511.png",
+      "sha256": "0dacc036e3d0d312ed15da2f8372fc26f2b15f7e01a60a0847deb4b9eb3444c7",
+      "alt": "Figure 10.5. Export and runtime selection connect model preparation to the target device. The routes are representative alternatives, not a requirement to install every runtime or evidence that every operator is portable."
+    },
+    {
+      "page": "chapters/ch10.md",
+      "file": "asset-079acf649ba4b02c.png",
+      "source_media": "rId514.png",
+      "sha256": "079acf649ba4b02ca7e6138f76c735cbd2e87916348229d19ca62d37447c5cc5",
+      "alt": "Inspect model tensors, not only the filename; student_direct_11.npz; Stored tensors; w0: [16, 64] float32; b0: [16] float32; w1: [10, 16] float32; b1: [10] float32; Inspect before deployment; Names, shapes, numerical types, artifact digest.; Still not established; Kernel selection, accelerator use, or measured; latency."
+    },
+    {
+      "page": "chapters/ch10.md",
+      "file": "asset-d44e7980e60b75bc.png",
+      "source_media": "rId520.png",
+      "sha256": "d44e7980e60b75bc8eb9ea8bd322fd8db7fed7cb3c7088cb8fa4dde7faddaad0",
+      "alt": "Figure 10.7. Storage and RAM answer different feasibility questions. Only activations that remain live together need coexist, but workspace and application buffers can make the peak much larger than one layer output."
+    },
+    {
+      "page": "chapters/ch10.md",
+      "file": "asset-dbfda100b07b5371.png",
+      "source_media": "rId523.png",
+      "sha256": "dbfda100b07b5371c6f6b66555d3fc63022b3b51c645085b192908256fdb0d19",
+      "alt": "Stacked allocations at five execution phases: 12,32,38,56,32 MB total, including constant 20 MB weights after loading."
+    },
+    {
+      "page": "chapters/ch10.md",
+      "file": "asset-f3d485d6cc6cdc44.png",
+      "source_media": "rId529.png",
+      "sha256": "f3d485d6cc6cdc441fa16d924e34b52032d8797e9fa981eccaa04937d9d89b56",
+      "alt": "Figure 10.9. A depthwise stage processes channels separately; a pointwise stage mixes them. This changes the architecture. The operation-count reduction below is an analytical comparison, not a measured device speedup."
+    },
+    {
+      "page": "chapters/ch10.md",
+      "file": "asset-6a3a8202bd7a5944.png",
+      "source_media": "rId533.png",
+      "sha256": "6a3a8202bd7a594451b6c0f3701f3b345aa858305b8be10dde3d22f14048ec3a",
+      "alt": "Quantize one value step by step; Real value; x = 0.34; Scale and round; 0.34 / 0.1 = 3.4; round(3.4) = 3; Integer code; q = 3; z = 0; Reconstruct; 0.1 × (3 − 0); = 0.30; 0.0; 0.1; 0.2; 0.3; 0.4; 0.5; 0.34; Clipping is different; 15 / 0.1 = 150 → clip to 127 → 12.7; rounding bound no longer applies."
+    },
+    {
+      "page": "chapters/ch10.md",
+      "file": "asset-288f08bb7933657a.png",
+      "source_media": "rId538.png",
+      "sha256": "288f08bb7933657a6b4a73722656ae9ac7243322cc510eb7e2d64cfea30e481e",
+      "alt": "Figure 10.11. PTQ estimates a representation after training; QAT exposes training to simulated rounding and clipping. Both still need conversion, actual supported execution, and independent evaluation."
+    },
+    {
+      "page": "chapters/ch10.md",
+      "file": "asset-008fd9063d32a152.png",
+      "source_media": "rId543.png",
+      "sha256": "008fd9063d32a152b546aa9ffba1c88931fc2cd3f6ff2b453246a71a87cb0523",
+      "alt": "Figure 10.12. An unstructured mask leaves matrix dimensions unchanged; structural removal shrinks dimensions and corresponding inputs to the next layer. A sparse kernel is needed to exploit arbitrary zeros as skipped arithmetic."
+    },
+    {
+      "page": "chapters/ch10.md",
+      "file": "asset-57d805069c5903e5.png",
+      "source_media": "rId549.png",
+      "sha256": "57d805069c5903e5ba599c2b4e019005ea21bbae4d1951b8ca499927021df1c0",
+      "alt": "Figure 10.13. During preparation, both the true label and the frozen teacher can guide student learning. During ordinary deployment, only the student executes. Calling the teacher at inference time would be a different collaboration design."
+    },
+    {
+      "page": "chapters/ch10.md",
+      "file": "asset-99cfe23516140d12.png",
+      "source_media": "rId553.png",
+      "sha256": "99cfe23516140d124a57ce0b59162c94a4c7a6c47faa98ab6e9d06a304a6626f",
+      "alt": "Inspect examples behind the distillation score; Both correct; ID 1471; Truth 1; Direct 1 | Distilled 1; Direct only correct; ID 1311; Truth 4; Direct 4 | Distilled 0; Distilled only correct; ID 498; Truth 7; Direct 9 | Distilled 7; Both wrong; ID 123; Truth 8; Direct 2 | Distilled 2"
+    },
+    {
+      "page": "chapters/ch10.md",
+      "file": "asset-27f58c4f90f3aeb2.png",
+      "source_media": "rId559.png",
+      "sha256": "27f58c4f90f3aeb2eb8fc8fdab7cf54216f3b724244ffced11944cc740954590",
+      "alt": "Figure 10.15. Separate operators can materialize intermediate tensors; a valid fused implementation may avoid some traffic. The diagram illustrates a runtime opportunity, not a guarantee that this exact fusion is available on every backend."
+    },
+    {
+      "page": "chapters/ch10.md",
+      "file": "asset-3b973b04a73b52d4.png",
+      "source_media": "rId566.png",
+      "sha256": "3b973b04a73b52d46ebdd9171238bf88eb6374ed8a978bc2bbe15a29f6c265e7",
+      "alt": "Figure 10.16. A model update returns through data review, preparation, conversion, and evaluation. Rollback includes preprocessing and output interpretation, not just replacing a weight file."
+    },
+    {
+      "page": "chapters/ch10.md",
+      "file": "asset-ac6011ab76ae7cab.png",
+      "source_media": "rId572.png",
+      "sha256": "ac6011ab76ae7caba61b1c581adc041e268144d931eb2c020879b17331e0eb60",
+      "alt": "Figure 10.17. Measured test accuracy for three initializations on one fixed split. The error bars show the observed range, not a statistical confidence interval. The same-size direct student is an essential distillation control."
+    },
+    {
+      "page": "chapters/ch10.md",
+      "file": "asset-c21598be8f504a54.png",
+      "source_media": "rId575.png",
+      "sha256": "c21598be8f504a541e6685d2fbd57bba150a6f2c1dd0a6d6fbe192c3246da97c",
+      "alt": "Figure 10.18. Calculated numeric payload from the actually trained and transformed models. Biases remain FP32 in the dynamic quantized variant. Serialized file size, peak RAM, and energy are different quantities."
+    },
+    {
+      "page": "chapters/ch11.md",
+      "file": "asset-7acb589d9062530c.png",
+      "source_media": "rId584.png",
+      "sha256": "7acb589d9062530c28e4c665c458621a243c6eb071d201e32c9d0f187589f10b",
+      "alt": "Collaboration methods organized by exchanged object; Route / cascade; Complete request or answer; Choose / escalate a model; Partition one model; Intermediate tensor; Continue dependent layers; Speculative decode; Draft tokens + verification; Continue a confirmed prefix; Task cooperation; Subtask + evidence + result; Join dependent tasks; Collaborative sensing; Observations / features; Align and combine evidence"
+    },
+    {
+      "page": "chapters/ch11.md",
+      "file": "asset-7260e91c7183cf93.png",
+      "source_media": "rId588.png",
+      "sha256": "7260e91c7183cf936d7701c3782c87ed0f9777f1b2f177d7e805eb651f364a04",
+      "alt": "Figure 11.2. A cascade may repeat work in a second complete model. An early-exit network reuses a prefix but needs suitable intermediate predictors. Arrows show conditional execution, not guaranteed quality."
+    },
+    {
+      "page": "chapters/ch11.md",
+      "file": "asset-9dec896573858885.png",
+      "source_media": "rId592.png",
+      "sha256": "9dec89657385888594a2000b70f3ce9b4b731ba03b3aef34dad53465a127c24b",
+      "alt": "Figure 11.3. Actual classification results using unchanged Chapter 10 artifacts and the inherited 360-image evaluation set. The cascade does not outperform the local baseline in this setup. No inference-speed claim is implied."
+    },
+    {
+      "page": "chapters/ch11.md",
+      "file": "asset-3b709d15d01e64a5.png",
+      "source_media": "rId595.png",
+      "sha256": "3b709d15d01e64a5fe69fa2fe98299bcf6fc886a2c058f34cc129c621de0c5f6",
+      "alt": "Which cases did the cascade fix or break?; Local baseline; 350 / 360; correct; Changes after escalation; +1 rescued; −5 damaged; Cascade outcome; 346 / 360; correct; Escalated 35 of 360 inputs; a second model is not automatically an oracle."
+    },
+    {
+      "page": "chapters/ch11.md",
+      "file": "asset-d09f083aa470caa6.png",
+      "source_media": "rId600.png",
+      "sha256": "d09f083aa470caa6845d01a2ae210b07690e690d484d79c4ec8e8b34f51d7ad4",
+      "alt": "Figure 11.5. A smaller computation prefix need not produce a smaller message. Sizes are calculated for the stated hypothetical tensors; metadata, protocol overhead, and compression are excluded."
+    },
+    {
+      "page": "chapters/ch11.md",
+      "file": "asset-16e34ac6205756f7.png",
+      "source_media": "rId607.png",
+      "sha256": "16e34ac6205756f7299e5c21dce9d4758b89cc0eb7f814be01e11293dd204bd0",
+      "alt": "Figure 11.6. Match identity and time before combining observations. A missing view should remain missing rather than being replaced by a confident model statement."
+    },
+    {
+      "page": "chapters/ch11.md",
+      "file": "asset-4d52ee8091ac8ae8.png",
+      "source_media": "rId612.png",
+      "sha256": "4d52ee8091ac8ae850a5f6bdae8b15d5db1a707c8d58ecec2a868eaa00e5baa3",
+      "alt": "Figure 11.7. A local model service joins compatible artifacts, a runtime, hardware, and a bounded request interface. A model name alone does not specify this deployment."
+    },
+    {
+      "page": "chapters/ch11.md",
+      "file": "asset-9c926d4146d47e3e.png",
+      "source_media": "rId618.png",
+      "sha256": "9c926d4146d47e3e7815643f2667bf289945f4acf682fc9f65f7c5aea8fff53b",
+      "alt": "Figure 11.8. First-token responsiveness and complete-task latency answer different questions. The timeline uses the explicitly hypothetical values in the text."
+    },
+    {
+      "page": "chapters/ch11.md",
+      "file": "asset-5a0ed842e5d212fe.png",
+      "source_media": "rId621.png",
+      "sha256": "5a0ed842e5d212fe70de58e60520e772ab13ad31158a3ea8dcdeb8d0f89d6f03",
+      "alt": "Follow a prefix through prefill and decoding; Prefill; p1; p2; p3; Process the prompt; predict y1; Decode step 1; p1; p2; p3; y1; Process y1; predict y2; Decode step 2; p1; p2; p3; y1; y2; Process y2; predict y3; The newest predicted token joins the cache when its own input step is processed."
+    },
+    {
+      "page": "chapters/ch11.md",
+      "file": "asset-82d4275c434b7bb8.png",
+      "source_media": "rId625.png",
+      "sha256": "82d4275c434b7bb872ee823f57eaacc0ae48ec7b9e76763f4129b4ee0992d5da",
+      "alt": "Figure 11.10. Longer contexts reduce the number of sequences fitting in a fixed cache budget. The 1.5 GiB example excludes weights and already reserves other memory separately."
+    },
+    {
+      "page": "chapters/ch11.md",
+      "file": "asset-576c9ad01f9dc218.png",
+      "source_media": "rId630.png",
+      "sha256": "576c9ad01f9dc2188db398b9fcc131a07dc5b073fd9fc544798d4de913c9ff55",
+      "alt": "Figure 11.11. Both designs filter infeasible endpoints. Routing chooses before a full attempt; cascading pays for the initial attempt before deciding whether to escalate."
+    },
+    {
+      "page": "chapters/ch11.md",
+      "file": "asset-93c7357bb1e28013.png",
+      "source_media": "rId637.png",
+      "sha256": "93c7357bb1e280138e7869aee234742ddc5ffa80212ada04eb32bf221e21214e",
+      "alt": "Figure 11.12. Only a confirmed prefix becomes the basis of subsequent accepted work. Rejected draft suffixes cannot be treated as completed output. This is an algorithm illustration, not a model trace."
+    },
+    {
+      "page": "chapters/ch11.md",
+      "file": "asset-6097a8e4178dab05.png",
+      "source_media": "rId641.png",
+      "sha256": "6097a8e4178dab05ad54d28c5771b3f9ae75715221074b924067490b8e704fa3",
+      "alt": "Figure 11.13. Analytical timing under fixed draft, verification, and confirmed-progress assumptions. The crossover changes if acceptance, queueing, overlap, or server behavior changes."
+    },
+    {
+      "page": "chapters/ch11.md",
+      "file": "asset-b4056f0f9e0c2ddd.png",
+      "source_media": "rId646.png",
+      "sha256": "b4056f0f9e0c2ddd9a05c3b2d30cea55f9467f1f76f66910cb119a3a63f0b749",
+      "alt": "Figure 11.14. The local data boundary is enforced by the application. A task description travels inward and a permitted result travels outward; neither model receives unlimited authority."
+    },
+    {
+      "page": "chapters/ch11.md",
+      "file": "asset-a0a967cf0dba85b3.png",
+      "source_media": "rId649.png",
+      "sha256": "a0a967cf0dba85b3d4c587d758c69bf8404ae57c4fbc843b1e86b48aaf898cfd",
+      "alt": "Audit the payload leaving the edge; Local evidence stays here; Raw histories; Names and access scopes; Detailed observations; Source documents; Approved payload; task: compare two intervals; metric: temperature_c; aggregate: [24.2, 25.1]; coverage: [1.0, 0.9]; Discloses these aggregates."
+    },
+    {
+      "page": "chapters/ch11.md",
+      "file": "asset-e7bcf70e0cd6a32c.png",
+      "source_media": "rId653.png",
+      "sha256": "e7bcf70e0cd6a32cda12e7244ab169c310bd1e1d737266dd12f0e10372ae2677",
+      "alt": "Figure 11.16. Candidate generation, selection, and resource scheduling are separate costs. Agreement among candidates is not independent evidence that their common claim is true."
+    },
+    {
+      "page": "chapters/ch11.md",
+      "file": "asset-44e1734d73be9717.png",
+      "source_media": "rId658.png",
+      "sha256": "44e1734d73be9717245f50a16df2e8bade8cac8f678b3ccd92a9c95dbdaed076",
+      "alt": "Figure 11.17. Inference cooperation produces an answer now. Adaptation uses permitted data or feedback to prepare a model for later requests, followed by validation and deployment."
+    },
+    {
+      "page": "chapters/ch12.md",
+      "file": "asset-2b9c954fbab14b31.png",
+      "source_media": "rId668.png",
+      "sha256": "2b9c954fbab14b31b71e6606ea945d7f96a0b7ad2a70a819dbf3224a6a66f502",
+      "alt": "Figure 12.1. The same tools can support different task paths. A dynamic path does not require a different agent for every operation."
+    },
+    {
+      "page": "chapters/ch12.md",
+      "file": "asset-6240ae2a3a004ba3.png",
+      "source_media": "rId671.png",
+      "sha256": "6240ae2a3a004ba3317e64c97aaa5cb5cbf1c01a14e1db37be899dec97aa7939",
+      "alt": "A revised goal changes the executed tool sequence; Count active samples >; 28°C; Executed filter; active and temperature_c > 28; Count; 2; Now count samples > 30°C; Executed filter; active and temperature_c > 30; Count; 1"
+    },
+    {
+      "page": "chapters/ch12.md",
+      "file": "asset-429bcdd72fbea484.png",
+      "source_media": "rId675.png",
+      "sha256": "429bcdd72fbea484a344dda234ea6817240e578bf8b58283c671054405a36008",
+      "alt": "Figure 12.3. Physical placement and authority are separate. Sensors feed a local data path; the model proposes work through a runtime rather than directly reading every resource."
+    },
+    {
+      "page": "chapters/ch12.md",
+      "file": "asset-65de182c307870ad.png",
+      "source_media": "rId680.png",
+      "sha256": "65de182c307870adacb48b9ce8e657b02e9f3a08a7fb67b66ce78df6e8ea3387",
+      "alt": "Figure 12.4. A time-series query and document retrieval produce different evidence. Both preserve identity, scope, and version before their results enter the model context."
+    },
+    {
+      "page": "chapters/ch12.md",
+      "file": "asset-9e0f268d054d91cd.png",
+      "source_media": "rId683.png",
+      "sha256": "9e0f268d054d91cd4b2b1b4c83520c61accacbeacf8a173042574cb81108d8ad",
+      "alt": "Retrieval with scope, version, and source visible; Permission filter; Allowed: pump-A; Exclude other scopes before; ranking; Relevant excerpt; doc_id: manual-A; revision: 2; section: maintenance; Excerpt + provenance; Check applicability; Correct device version?; Current procedure?; Supports this claim?; A retrieval score is not a truth or permission score."
+    },
+    {
+      "page": "chapters/ch12.md",
+      "file": "asset-1b83d6f8d830a6f0.png",
+      "source_media": "rId687.png",
+      "sha256": "1b83d6f8d830a6f0d61a701136d8a00a394cb6b3f721c126d86b3ff82008c1b6",
+      "alt": "Figure 12.6. Evidence, durable task state, and transient model state have different meanings and lifetimes. Summarizing context must not silently redefine the task."
+    },
+    {
+      "page": "chapters/ch12.md",
+      "file": "asset-b9beabc92c731578.png",
+      "source_media": "rId692.png",
+      "sha256": "b9beabc92c7315783dd96a3821c62a5861c04f6240d91a5ab7de085cdacf105b",
+      "alt": "Figure 12.7. Tool availability and a valid argument schema are not sufficient authority. The execution path applies scope and budget checks before invoking the implementation."
+    },
+    {
+      "page": "chapters/ch12.md",
+      "file": "asset-daf6de30da6c3688.png",
+      "source_media": "rId696.png",
+      "sha256": "daf6de30da6c368881b06beee681790757cc3614acde861647e7d55b95d6584d",
+      "alt": "Figure 12.8. A proposal becomes evidence only after execution. An error returns through the same loop and consumes part of the finite task budget."
+    },
+    {
+      "page": "chapters/ch12.md",
+      "file": "asset-227797a4227e9fd6.png",
+      "source_media": "rId702.png",
+      "sha256": "227797a4227e9fd6e96ae3d4674a2b0360c3cc26bae6231b063156671e041914",
+      "alt": "Figure 12.9. Expressiveness and execution authority should be designed separately. A restricted language is not a general Python interpreter with a warning in its prompt."
+    },
+    {
+      "page": "chapters/ch12.md",
+      "file": "asset-6c275dc061ef02b7.png",
+      "source_media": "rId706.png",
+      "sha256": "6c275dc061ef02b7fac08b0f7d6c32c3957230d4c5f382809bbd77830cf68fda",
+      "alt": "A restricted analysis program: accepted and rejected forms; Accepted form; where:; active and temperature_c > 28; expression: temperature_c; reduce: count; Known fields + bounded arithmetic; Rejected forms; import os; open(\"private.db\"); obj.attribute; while ...; No imports, calls, attributes or loops; A sample count is not a sustained-event count."
+    },
+    {
+      "page": "chapters/ch12.md",
+      "file": "asset-877c652804b91f42.png",
+      "source_media": "rId712.png",
+      "sha256": "877c652804b91f421c0a31cafbc17f221ab4c8f9abdc7639301fcafc3feb4e61",
+      "alt": "Figure 12.11. The selected rows explain the computed result. A changed threshold changes the mask, not the underlying evidence snapshot."
+    },
+    {
+      "page": "chapters/ch12.md",
+      "file": "asset-cd70b3e28d0528bd.png",
+      "source_media": "rId716.png",
+      "sha256": "cd70b3e28d0528bd5de481085715970f9bd2700af4450d07f7e924d87e1719e2",
+      "alt": "Figure 12.12. All rounds spend from one task budget. The widths are schematic; values are teaching assumptions, not measurements of a model or edge device."
+    },
+    {
+      "page": "chapters/ch12.md",
+      "file": "asset-cf535b0d828dc683.png",
+      "source_media": "rId721.png",
+      "sha256": "cf535b0d828dc683877ced9913738940c41c31b96011cbadc8eed7142debb415",
+      "alt": "Figure 12.13. A local tool can enforce local data policy even when a separate model assists with a bounded subtask. The outbound result is checked independently of the incoming request."
+    },
+    {
+      "page": "chapters/ch12.md",
+      "file": "asset-b32888199d77e8f1.png",
+      "source_media": "rId725.png",
+      "sha256": "b32888199d77e8f14db5262c45f329e15b6fa7ff673b6c0345dfe4dc6ac8491f",
+      "alt": "Figure 12.14. A task can pause, fail, expire, or complete. Persisted state identifies what may resume; a restart does not automatically grant a fresh budget."
+    },
+    {
+      "page": "chapters/ch12.md",
+      "file": "asset-5cd7fa88e2a4dbba.png",
+      "source_media": "rId729.png",
+      "sha256": "5cd7fa88e2a4dbba4846807568d28cbfb4d05e22d053c83ef9d16cf92dbb6384",
+      "alt": "Figure 12.15. A lost response after commit does not require repeating the logical operation. The replay rule is limited to the recorded operation, arguments, snapshot, and current permission."
+    },
+    {
+      "page": "chapters/ch12.md",
+      "file": "asset-93a21d2d4ee7e260.png",
+      "source_media": "rId732.png",
+      "sha256": "93a21d2d4ee7e2601e0d927bddd182f9e5d6d9064ac41dc01f083a2dd749d250",
+      "alt": "Resume from a committed result without a new budget; Before interruption; operation: op-3; args digest: H; result: r0003; Budget already charged; Resume; Same operation ID; Same args and snapshot; Permissions still valid; Replay committed result; result: r0003; No second computation; No fresh budget; Changed arguments or revoked access → reject replay."
+    },
+    {
+      "page": "chapters/ch12.md",
+      "file": "asset-cadfae33bcc09992.png",
+      "source_media": "rId737.png",
+      "sha256": "cadfae33bcc09992564308c1aa690a1d72f13311f0942febda9138483f9d90d1",
+      "alt": "A readable evidence trail from goal to final answer; 1; Goal; Mean during active samples for pump-A; 2; Query result r0002; Six rows; four active observations; 3; Selection; 24, 25, 29, 31 °C; 4; Analysis r0003; (24 + 25 + 29 + 31) / 4 = 27.25 °C; 5; Presentation check; Report 27.25°C with scope and result ID"
+    },
+    {
+      "page": "chapters/ch13.md",
+      "file": "asset-30cda04b6f54ccb5.png",
+      "source_media": "rId745.png",
+      "sha256": "30cda04b6f54ccb57e87415059fee96c634b56ae77dcc06157f8b571dd4db338",
+      "alt": "Figure 13.1. Separate device, user, update, and external-service authority. A local network does not give every participant the same rights. The drawing describes a teaching deployment, not a particular product."
+    },
+    {
+      "page": "chapters/ch13.md",
+      "file": "asset-500e156f92cd22d7.png",
+      "source_media": "rId749.png",
+      "sha256": "500e156f92cd22d7133efd1bd8d93392ae69ea1d3846a20b0d61514d5651b36a",
+      "alt": "Figure 13.2. Authenticate the principal, bind the request to a resource, and apply the permitted operation and conditions. A claimed device name is not itself authentication."
+    },
+    {
+      "page": "chapters/ch13.md",
+      "file": "asset-0d959a779b90a33b.png",
+      "source_media": "rId752.png",
+      "sha256": "0d959a779b90a33bbb2258bfc11e74e807b4d89f5dc6aea5e189e5309acb8cf2",
+      "alt": "Figure 13.3. A signed cached grant can still be valid under the local policy after a remote revocation that the node has not learned. Expiry bounds a chosen exposure window; it does not provide instant synchronization. Times are teaching assumptions."
+    },
+    {
+      "page": "chapters/ch13.md",
+      "file": "asset-3d23f5d5320c4dde.png",
+      "source_media": "rId757.png",
+      "sha256": "3d23f5d5320c4ddea6a46a3c4c33cf95b57d880f9769cbbc94a097fe0a111e59",
+      "alt": "Figure 13.4. Hop protection ends where a connection terminates. Object signatures can preserve source integrity beyond a broker, while confidentiality needs its own design. The two examples show different protected boundaries, not interchangeable protocols."
+    },
+    {
+      "page": "chapters/ch13.md",
+      "file": "asset-d8b26e93eb1d3d3b.png",
+      "source_media": "rId760.png",
+      "sha256": "d8b26e93eb1d3d3b18c48362d13bdc8f85c06a9b941e35aaff218b5d93ac19da",
+      "alt": "Valid signature, unsupported physical claim; Authorized issuer; temperature_c: 99; Structurally valid record; Signature verification; PASS; Exact bytes match the trusted; key.; Physical truth; NOT ESTABLISHED; No independent sensor check.; An authentic statement may still contain a false measurement."
+    },
+    {
+      "page": "chapters/ch13.md",
+      "file": "asset-78a46db649a8c745.png",
+      "source_media": "rId765.png",
+      "sha256": "78a46db649a8c7454403f7b21ef9c8361c7ffb0105174592ac31194387980f6b",
+      "alt": "Figure 13.6. Trust checks decide whether an artifact may be staged; operational checks decide whether it can become the running release. Verification does not establish model quality or safe physical behavior."
+    },
+    {
+      "page": "chapters/ch13.md",
+      "file": "asset-b35906e6d27a8f75.png",
+      "source_media": "rId768.png",
+      "sha256": "b35906e6d27a8f753bc3835f6e50bde8d7583926baaf37d4e786a3c201d9e89a",
+      "alt": "An update passes one check and fails another; Release A / seq 8; Valid signature; Digest matches; Eligible for staging; Release B / seq 6; Valid signature; Digest matches; Reject: below floor 7; Release C / seq 8; Valid signature; Digest differs; Reject: changed artifact; Passing verification precedes activation, health checks and model-quality tests."
+    },
+    {
+      "page": "chapters/ch13.md",
+      "file": "asset-22d0d2bedbfe6a0a.png",
+      "source_media": "rId771.png",
+      "sha256": "22d0d2bedbfe6a0a3437f1e573fcb1d05f34981b286036214f808c6f67b45f00",
+      "alt": "Remote attestation as evidence, appraisal, and decision; Attester; Verifier; Relying party; 1 Evidence + freshness; 2 Appraise; Reference values + policy; 3 Attestation result; 4 Decide access; Local authorization policy"
+    },
+    {
+      "page": "chapters/ch13.md",
+      "file": "asset-b5bb1bdc92638e90.png",
+      "source_media": "rId777.png",
+      "sha256": "b5bb1bdc92638e901f1ac547d3cc657d6c11e6184f83b2f48dc96d38212127d0",
+      "alt": "Figure 13.9. Minimize data at collection, constrain access during processing, and review what leaves through answers, logs, and caches. A shorter representation is not automatically nonsensitive."
+    },
+    {
+      "page": "chapters/ch13.md",
+      "file": "asset-41b0db386480c6fe.png",
+      "source_media": "rId781.png",
+      "sha256": "41b0db386480c6fefb9da158b09eff19e76ccebcd30dfd3d782f1c83a24f7f3f",
+      "alt": "Figure 13.10. An action passes separate identity, scope, state and budget checks. Acceptance and the independently observed effect remain different events. The laboratory stops at a simulated permission record."
+    },
+    {
+      "page": "chapters/ch13.md",
+      "file": "asset-d13330dfe86e06d3.png",
+      "source_media": "rId784.png",
+      "sha256": "d13330dfe86e06d3bfd24ecccd43c0f2388d9a874f58ed790ae27f326dc2726f",
+      "alt": "Authorized does not always mean safe to execute; Who may request?; Authenticated user; Authorized operation; Is this state usable?; Fresh observation; Permitted operating range; May action proceed?; Confirm / allow; Otherwise refuse or degrade; Permission to operate does not prove that the current action is safe."
+    },
+    {
+      "page": "chapters/ch13.md",
+      "file": "asset-e9814e785c0a1c2d.png",
+      "source_media": "rId788.png",
+      "sha256": "e9814e785c0a1c2dd22535a94717cd0490039488109ad58d2735ae5f5efc1f17",
+      "alt": "Figure 13.12. Local screening and cross-site analysis can cooperate, but observation scope and response authority remain separate. A suspicious pattern may justify review without justifying an irreversible action."
+    },
+    {
+      "page": "chapters/ch14.md",
+      "file": "asset-884ce00404399a60.png",
+      "source_media": "rId796.png",
+      "sha256": "884ce00404399a60e77164f810064acfda8d399745b4d400a736663e78348e7c",
+      "alt": "Figure 14.1. A signature answers who attested to these bytes; a history check answers whether a supplied sequence matches an anchor; agreement determines an accepted sequence under a governance model. None directly measures the physical world."
+    },
+    {
+      "page": "chapters/ch14.md",
+      "file": "asset-dfdca3db1bc3856f.png",
+      "source_media": "rId800.png",
+      "sha256": "dfdca3db1bc3856fd6f62ed5e495e2100d3f03bb418dbe18b9669e53a129add3",
+      "alt": "Figure 14.2. Bind identity, claim type, subject and content in one signed object. The external report remains separately retrievable and its digest can be checked after retrieval."
+    },
+    {
+      "page": "chapters/ch14.md",
+      "file": "asset-533b738413d8419d.png",
+      "source_media": "rId803.png",
+      "sha256": "533b738413d8419d8fa8c9f4e03ef417e47920de34e72d7b4f8fae03ed1b9aa4",
+      "alt": "Read one signed record field by field; claim_type; How the statement may be used; subject; Which device/model is described; issuer; Who signs, under which permitted role; sequence + previous_digest; Position and link in this history; report_digest; Which external bytes are committed; signature; Verification under an authorized public key; The signature covers deterministic encoded bytes, not this explanatory layout."
+    },
+    {
+      "page": "chapters/ch14.md",
+      "file": "asset-b4f5e43e041e6423.png",
+      "source_media": "rId807.png",
+      "sha256": "b4f5e43e041e6423c16a8184c484f8880f04a9844506a72c87790da338aa00c5",
+      "alt": "Figure 14.4. Both branches can contain valid issuer signatures. A previously trusted checkpoint can reject a conflicting or shorter history, but a checkpoint from before the fork cannot choose between later branches."
+    },
+    {
+      "page": "chapters/ch14.md",
+      "file": "asset-22a0056775cd8237.png",
+      "source_media": "rId810.png",
+      "sha256": "22a0056775cd8237ec62a1fee2aeb273beafc8b90346d02423ed53df4b5b256a",
+      "alt": "Three histories that fail in different ways; Changed content; A → B* → C; Signature or link check fails.; Old valid prefix; A → B; May pass until a newer trusted; checkpoint is known.; Two valid branches; A → B1; A → B2; Both may pass locally;; agreement is still missing."
+    },
+    {
+      "page": "chapters/ch14.md",
+      "file": "asset-c6d8366f351defc6.png",
+      "source_media": "rId814.png",
+      "sha256": "c6d8366f351defc6e1a7922653d8fc8ccd11ed9b39f11ac8b222280f85556fa9",
+      "alt": "Figure 14.6. Submission, application validation, agreement on order, and local application of a result are distinct responsibilities. Products may distribute these responsibilities differently. A submitted transaction is not yet a committed application effect."
+    },
+    {
+      "page": "chapters/ch14.md",
+      "file": "asset-992586d62b0f5093.png",
+      "source_media": "rId817.png",
+      "sha256": "992586d62b0f50938d8b940cb59b1a8f7d8efbd961907ae4e661e6e78665ac2a",
+      "alt": "Figure 14.7. With four equally weighted participants, two three-member quorums overlap in at least two. This illustrates a requirement for agreement; it does not implement a consensus protocol or prove liveness."
+    },
+    {
+      "page": "chapters/ch14.md",
+      "file": "asset-c131e54774deb3bf.png",
+      "source_media": "rId822.png",
+      "sha256": "c131e54774deb3bfc30e4668bb09a22c43b5348e0393e34d60f0471483990974",
+      "alt": "Figure 14.8. The high-rate data path and the shared trust path have different duties. A digest links the two without transferring ownership, confidentiality, or physical truth into the ledger."
+    },
+    {
+      "page": "chapters/ch14.md",
+      "file": "asset-aa87a9bd5f8e6d50.png",
+      "source_media": "rId825.png",
+      "sha256": "aa87a9bd5f8e6d50843f6155e70c68b765aa09384006326ab954f0706c431384",
+      "alt": "Hashing a predictable value is not encryption; Published digest; c2356069e9d1e79c…; ; Unknown value is; assumed to be an integer; 18–30.; Try each candidate; 22 → 785f3ec7eb…; 23 → 535fa30d7e…; 24 → c2356069e9…; 25 → b7a56873cd…; 26 → 5f9c4ab08c…; Match; \"24\"; ; A small guess space; reveals the value without; breaking SHA-256."
+    },
+    {
+      "page": "chapters/ch14.md",
+      "file": "asset-d08ec4c05915d5d8.png",
+      "source_media": "rId830.png",
+      "sha256": "d08ec4c05915d5d80c5b1443a3b14c20e1c07611829a4eeaf3ab992495226978",
+      "alt": "Figure 14.10. DCL separates authorized publication, replicated validation infrastructure, and public reading. A site uses the returned evidence in its own admission decision; ordinary sensor traffic remains on the application data path. This is a teaching abstraction of the documented roles."
+    },
+    {
+      "page": "chapters/ch14.md",
+      "file": "asset-e76c624e85bb0017.png",
+      "source_media": "rId834.png",
+      "sha256": "e76c624e85bb00172d60db059c44ecb87ab74da13ea4df7b513a942178253d28",
+      "alt": "Figure 14.11. A reader may hold an authentic approved snapshot while a newer revocation exists elsewhere. Separate signature validity, snapshot age, and knowledge of the latest committed state."
+    },
+    {
+      "page": "chapters/ch14.md",
+      "file": "asset-412b2d23637e0cd5.png",
+      "source_media": "rId838.png",
+      "sha256": "412b2d23637e0cd556c9cca61b3f74d8f5e2b8a11bbb1322c5b47841e5cd3b41",
+      "alt": "Choose a trust design from the actual disagreement; What must the participants verify together?; One accepted operator; Authenticated database; Access policy + backups; Optional independent audit; Audit claims and history; Signed statements + log; Trusted checkpoints; Independent monitoring; Shared write authority; Governed distributed ledger; Agreement protocol; Membership + recovery; These are alternatives under different trust assumptions—not upgrade stages."
+    }
+  ],
+  "math": [
+    {
+      "page": "chapters/ch01.md",
+      "type": "InlineMath",
+      "tex": "2^{30}"
+    },
+    {
+      "page": "chapters/ch02.md",
+      "type": "DisplayMath",
+      "tex": "T_{request} = T_{model} + T_{tools} + T_{communication} + T_{runtime}."
+    },
+    {
+      "page": "chapters/ch02.md",
+      "type": "InlineMath",
+      "tex": "T_{model}"
+    },
+    {
+      "page": "chapters/ch02.md",
+      "type": "InlineMath",
+      "tex": "T_{tools}"
+    },
+    {
+      "page": "chapters/ch02.md",
+      "type": "InlineMath",
+      "tex": "T_{communication}"
+    },
+    {
+      "page": "chapters/ch02.md",
+      "type": "InlineMath",
+      "tex": "T_{runtime}"
+    },
+    {
+      "page": "chapters/ch02.md",
+      "type": "DisplayMath",
+      "tex": "600/3 + (0.020 \\times 8760 \\times 0.20) + 40 = 275.04\\ \\text{cost units/year}."
+    },
+    {
+      "page": "chapters/ch03.md",
+      "type": "InlineMath",
+      "tex": "d = v\\Delta t/2"
+    },
+    {
+      "page": "chapters/ch03.md",
+      "type": "InlineMath",
+      "tex": "v"
+    },
+    {
+      "page": "chapters/ch03.md",
+      "type": "InlineMath",
+      "tex": "f_{max}"
+    },
+    {
+      "page": "chapters/ch03.md",
+      "type": "InlineMath",
+      "tex": "b"
+    },
+    {
+      "page": "chapters/ch03.md",
+      "type": "InlineMath",
+      "tex": "2^{b}"
+    },
+    {
+      "page": "chapters/ch03.md",
+      "type": "InlineMath",
+      "tex": "x = (y - b)/a"
+    },
+    {
+      "page": "chapters/ch03.md",
+      "type": "InlineMath",
+      "tex": "y"
+    },
+    {
+      "page": "chapters/ch03.md",
+      "type": "InlineMath",
+      "tex": "a"
+    },
+    {
+      "page": "chapters/ch03.md",
+      "type": "InlineMath",
+      "tex": "b"
+    },
+    {
+      "page": "chapters/ch03.md",
+      "type": "InlineMath",
+      "tex": "p_{s}"
+    },
+    {
+      "page": "chapters/ch03.md",
+      "type": "DisplayMath",
+      "tex": "p_{r} = R_{rs}p_{s} + t_{rs},"
+    },
+    {
+      "page": "chapters/ch03.md",
+      "type": "InlineMath",
+      "tex": "R_{rs}"
+    },
+    {
+      "page": "chapters/ch03.md",
+      "type": "InlineMath",
+      "tex": "t_{rs}"
+    },
+    {
+      "page": "chapters/ch03.md",
+      "type": "InlineMath",
+      "tex": "15 \\times 0.020 = 0.30"
+    },
+    {
+      "page": "chapters/ch03.md",
+      "type": "InlineMath",
+      "tex": "\\sigma_{1}^{2}"
+    },
+    {
+      "page": "chapters/ch03.md",
+      "type": "InlineMath",
+      "tex": "\\sigma_{2}^{2}"
+    },
+    {
+      "page": "chapters/ch03.md",
+      "type": "InlineMath",
+      "tex": "1/\\sigma_{i}^{2}"
+    },
+    {
+      "page": "chapters/ch03.md",
+      "type": "InlineMath",
+      "tex": "E = \\sum_{i}^{}P_{i}t_{i}"
+    },
+    {
+      "page": "chapters/ch03.md",
+      "type": "InlineMath",
+      "tex": "0.1(0.02) + 0.001(0.98) = 0.00298"
+    },
+    {
+      "page": "chapters/ch04.md",
+      "type": "InlineMath",
+      "tex": "60 \\times 8/100000 = 4.8"
+    },
+    {
+      "page": "chapters/ch04.md",
+      "type": "InlineMath",
+      "tex": "1 - p"
+    },
+    {
+      "page": "chapters/ch04.md",
+      "type": "InlineMath",
+      "tex": "1/(1 - p)"
+    },
+    {
+      "page": "chapters/ch04.md",
+      "type": "InlineMath",
+      "tex": "p = 0.2"
+    },
+    {
+      "page": "chapters/ch04.md",
+      "type": "DisplayMath",
+      "tex": "T(k + 1) = T(k) + 0.2 \\times \\left\\lbrack 25 - T(k) \\right\\rbrack + 2u(k)"
+    },
+    {
+      "page": "chapters/ch09.md",
+      "type": "InlineMath",
+      "tex": "8 \\times 0.70 = 5.6"
+    },
+    {
+      "page": "chapters/ch09.md",
+      "type": "DisplayMath",
+      "tex": "n_{\\text{all-edge}} = \\text{ceil}\\left( \\frac{40 + 40}{5.6} \\right) = 15"
+    },
+    {
+      "page": "chapters/ch09.md",
+      "type": "InlineMath",
+      "tex": "12.00 - (6.40 + 2.80) = 2.80"
+    },
+    {
+      "page": "appendices/appendix-b.md",
+      "type": "InlineMath",
+      "tex": "i"
+    },
+    {
+      "page": "appendices/appendix-b.md",
+      "type": "InlineMath",
+      "tex": "w_{i}"
+    },
+    {
+      "page": "appendices/appendix-b.md",
+      "type": "InlineMath",
+      "tex": "n_{i}"
+    },
+    {
+      "page": "appendices/appendix-b.md",
+      "type": "DisplayMath",
+      "tex": "w_{new} = \\frac{\\sum_{i}^{}n_{i}w_{i}}{\\sum_{i}^{}n_{i}}."
+    },
+    {
+      "page": "appendices/appendix-b.md",
+      "type": "InlineMath",
+      "tex": "w_{1} = 2"
+    },
+    {
+      "page": "appendices/appendix-b.md",
+      "type": "InlineMath",
+      "tex": "w_{2} = 6"
+    },
+    {
+      "page": "appendices/appendix-b.md",
+      "type": "InlineMath",
+      "tex": "(10 \\cdot 2 + 30 \\cdot 6)/40 = 5"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "20 + 10 + 150 + 35 = 215"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "20 + 160 + 30 + 15 = 225"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "5.80 + 1.50 = 7.30"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "5.80 + 3(0.12) = 6.16"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "18/20 = 90\\%"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "16/18 \\approx 88.9\\%"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "16/20 = 80\\%"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "3 \\cdot 2 \\cdot 50 = 300"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "300 \\cdot 28,800 = 8,640,000"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "(6 + 8) \\cdot 50 = 700"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "12\\, m/s \\times 0.040\\, s = 0.48"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "5(12 + 36) = 240"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "5 \\cdot 12 + 36 = 96"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "8 \\times 0.6 = 4.8"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "\\lceil 12/4.8\\rceil = 3"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "16/100 = 0.16"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "20 + 8 + 30 + 40 + 60 + 4 = 162"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "(18 - 12) \\times 8 = 48"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "\\lceil 80/5.6\\rceil = 15"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "15(0.60) = 9.00"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "8(0.60) + 8(0.35) + 0.60 = 8.20"
+    },
+    {
+      "page": "appendices/appendix-c.md",
+      "type": "InlineMath",
+      "tex": "9.00 - \\left\\lbrack 8(0.60) + 8(0.35) \\right\\rbrack = 1.40"
+    },
+    {
+      "page": "appendices/appendix-d.md",
+      "type": "InlineMath",
+      "tex": "10^{6}"
+    },
+    {
+      "page": "appendices/appendix-d.md",
+      "type": "InlineMath",
+      "tex": "10^{6}"
+    },
+    {
+      "page": "appendices/appendix-d.md",
+      "type": "InlineMath",
+      "tex": "2^{20}"
+    },
+    {
+      "page": "appendices/appendix-d.md",
+      "type": "InlineMath",
+      "tex": "2^{30}"
+    },
+    {
+      "page": "appendices/appendix-d.md",
+      "type": "InlineMath",
+      "tex": "D"
+    },
+    {
+      "page": "appendices/appendix-d.md",
+      "type": "InlineMath",
+      "tex": "S"
+    },
+    {
+      "page": "appendices/appendix-d.md",
+      "type": "InlineMath",
+      "tex": "B"
+    },
+    {
+      "page": "appendices/appendix-d.md",
+      "type": "InlineMath",
+      "tex": "T"
+    },
+    {
+      "page": "appendices/appendix-d.md",
+      "type": "InlineMath",
+      "tex": "\\lambda"
+    },
+    {
+      "page": "appendices/appendix-d.md",
+      "type": "InlineMath",
+      "tex": "\\mu"
+    },
+    {
+      "page": "appendices/appendix-d.md",
+      "type": "InlineMath",
+      "tex": "\\rho"
+    },
+    {
+      "page": "appendices/appendix-d.md",
+      "type": "InlineMath",
+      "tex": "\\lambda/\\mu"
+    },
+    {
+      "page": "appendices/appendix-d.md",
+      "type": "InlineMath",
+      "tex": "C"
+    },
+    {
+      "page": "appendices/appendix-d.md",
+      "type": "InlineMath",
+      "tex": "E"
+    },
+    {
+      "page": "appendices/appendix-d.md",
+      "type": "InlineMath",
+      "tex": "P"
+    },
+    {
+      "page": "appendices/appendix-d.md",
+      "type": "InlineMath",
+      "tex": "M"
+    },
+    {
+      "page": "appendices/appendix-d.md",
+      "type": "InlineMath",
+      "tex": "T"
+    }
+  ],
+  "limitations": [
+    "Original photograph permission caveats remain; conversion is not publication-rights clearance.",
+    "Laboratory code archives were not supplied as part of the current DOCX migration; no tests or deployments of teaching systems are claimed.",
+    "Printed cover and page-number table of contents replaced by web navigation. Original manual chapter and figure numbers retained.",
+    "Word underlining is represented as normal text; bold and italic emphasis are retained."
+  ]
 }

@@ -1,39 +1,23 @@
-# Publication checklist
+# About this web edition
 
-## What this prototype establishes
+This is the complete **English v0.4.2 manuscript** of *Edge Computing Systems*, converted from the supplied Word document. It includes the preface, fourteen chapters, Appendices A–E (including selected exercise solutions), 211 references, and photograph/product-image credits.
 
-The project provides an English Sphinx website structure, search/navigation,
-a table-and-equation sample, automated build checks, and a manually gated
-GitHub Pages deployment job. A successful CI build does not mean that Pages
-has been configured or that the website has been deployed.
+## What changed in the conversion
 
-## What remains before a full-book release
+The web edition replaces the printed cover and page-number contents with navigable HTML. The chapter sequence, section headings, manual figure/table identifiers, prose, tables, code examples, and equation objects are retained. Numerical citations link to the original reference entries. Images are extracted from the manuscript rather than reconstructed or redrawn. Word underlining is rendered as ordinary text; bold and italic emphasis are retained.
 
-- Import and verify all 14 chapters against the v0.4.2 Word manuscript.
-- Preserve the 156 numbered figures and reference identifiers 1–211 when
-  migrating the full book; verify each actual web inclusion separately.
-- Review every third-party image's permission and attribution. The manuscript
-  progress record explicitly notes unconfirmed manufacturer/media permissions.
-- Decide whether Appendix C may be public. It and the full PDF/Word downloads
-  are excluded from this bootstrap.
-- Review the existing repository LICENSE and the intended content/asset scope;
-  do not assume that a software license clears third-party photographs.
-- Check navigation, search, tables, mathematics, captions, cross-references,
-  accessibility, and mobile layout after full migration.
+The source and conversion inventory are recorded in `SOURCE_MANIFEST.json` in the repository. Automated checks compare rendered text with the conversion input and check image hashes, chapter coverage, references, equation objects, and local links. Those checks do not verify the scientific claims or rerun the laboratory experiments.
 
-## Source of truth
+## Images and publication status
 
-Use `Edge_Computing_Systems_v0_4_2_EN.docx` for migration. The v0.4.2 progress
-record says that the older HTML reading pages and source archive were not
-rebuilt. The corresponding PDF is a reading reference, not the preferred
-source for text extraction.
+**The original photograph permissions and publication caveats remain in force.** Some manufacturer/media images and older course-slide photographs have unconfirmed publication permission. Their inclusion in this supplied review manuscript is not evidence of clearance, and this conversion does not grant new rights. Read the [photograph and product-image credits](references.md#photograph-and-product-image-credits) and [Appendix E](appendices/appendix-e.md).
 
-## Publishing control
+The existing repository `LICENSE` is not changed by this migration. Third-party images retain the stated source licenses or permission restrictions; no claim is made that the repository license overrides them.
 
-The workflow builds on branch pushes and pull requests but deploys only when
-the owner manually runs it on `main` with `publish` enabled. GitHub Pages must
-first be configured to use GitHub Actions. Do not enable publication until
-the intended release scope has been reviewed.
+## Companion materials
 
-This repository is public. Unmerged branches and build artifacts are not
-private storage for unapproved manuscript content or instructor materials.
+The manuscript describes companion laboratory/source packages. These are **not newly supplied or executed by this website conversion**. References to experiments preserve the manuscript's distinctions among measurements, analytical examples, synthetic records, and proposed deployments.
+
+## Corrections
+
+Corrections can be proposed through the repository's issue tracker or a pull request. The editable web sources are in `docs/chapters/` and `docs/appendices/`. Revise those source files rather than generated HTML.
